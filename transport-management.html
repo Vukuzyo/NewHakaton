@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 23.02.01 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="goBack()">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>Назад</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">23.02.01</h1>
+                <p class="hero-subtitle">Организация перевозок и управление на транспорте</p>
+                <p class="hero-description">Стань специалистом в области транспортной логистики и управления перевозками. Освой современные технологии управления транспортными системами и логистическими процессами.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">91%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">70+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов по организации и управлению перевозками на различных видах транспорта. Студенты изучают транспортную логистику, управление транспортными системами, технологии перевозок и экспедирование.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Техник по организации и управлению на транспорте" и "Специалист по транспортной логистике". Дополнительно доступны сертификации по логистике и управлению цепями поставок.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать логистом, диспетчером на транспорте, специалистом по организации перевозок, менеджером по транспортной логистике и другими востребованными профессиями в сфере транспорта и логистики.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы транспортной системы</li>
+                        <li><i class="fas fa-check"></i> Экономика транспорта</li>
+                        <li><i class="fas fa-check"></i> Технические средства транспорта</li>
+                        <li><i class="fas fa-check"></i> Документооборот на транспорте</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Организация перевозок</li>
+                        <li><i class="fas fa-check"></i> Транспортная логистика</li>
+                        <li><i class="fas fa-check"></i> Управление транспортными системами</li>
+                        <li><i class="fas fa-check"></i> Экспедирование грузов</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Цифровые технологии в логистике</li>
+                        <li><i class="fas fa-check"></i> Управление цепями поставок</li>
+                        <li><i class="fas fa-check"></i> Международные перевозки</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Наши преподаватели</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Сергей Васильев</h3>
+                        <p class="teacher-subject">Транспортная логистика</p>
+                        <p class="teacher-exp">Опыт работы: 15 лет</p>
+                        <p>Кандидат экономических наук. Эксперт по транспортной логистике и управлению цепями поставок. Автор методик оптимизации транспортных процессов.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Ольга Николаева</h3>
+                        <p class="teacher-subject">Организация перевозок</p>
+                        <p class="teacher-exp">Опыт работы: 12 лет</p>
+                        <p>Специалист по организации автомобильных и железнодорожных перевозок. Эксперт по транспортному законодательству и документообороту.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Дмитрий Козлов</h3>
+                        <p class="teacher-subject">Цифровые технологии в логистике</p>
+                        <p class="teacher-exp">Опыт работы: 10 лет</p>
+                        <p>Эксперт по внедрению цифровых технологий в транспортно-логистические процессы. Специалист по TMS и WMS системам.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-ninja"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Анна Смирнова</h3>
+                        <p class="teacher-subject">Международные перевозки</p>
+                        <p class="teacher-exp">Опыт работы: 14 лет</p>
+                        <p>Специалист по международным автомобильным и морским перевозкам. Эксперт по таможенному оформлению и международной логистике.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория транспортной логистики</h3>
+                        <p>Современное оборудование и программное обеспечение для изучения транспортной логистики и управления перевозками.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Системы управления перевозками (TMS)</li>
+                            <li><i class="fas fa-check"></i> Симуляторы логистических процессов</li>
+                            <li><i class="fas fa-check"></i> Картографические системы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория складской логистики</h3>
+                        <p>Оборудование для изучения складской логистики и управления складскими процессами.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Системы управления складом (WMS)</li>
+                            <li><i class="fas fa-check"></i> Оборудование для складирования</li>
+                            <li><i class="fas fa-check"></i> Системы автоматической идентификации</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Достижения студентов 2024</h2>
+            <div class="achievements">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Конкурс "Логистика будущего"</h3>
+                    <p>1 место в номинации "Лучший проект оптимизации транспортных потоков". Проект: "Система управления городскими грузоперевозками"</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>WorldSkills Russia 2024</h3>
+                    <p>2 место в компетенции "Экспедирование грузов". Участник: Мария Иванова</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Проект для логистической компании</h3>
+                    <p>Студенты разработали систему оптимизации маршрутов доставки, что позволило компании сократить расходы на топливо на 12%.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Образцова, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@stmiit.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="#"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

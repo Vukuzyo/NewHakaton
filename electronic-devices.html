@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 11.02.01 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">11.02.01</h1>
+                <p class="hero-subtitle">Разработка электронных устройств и систем</p>
+                <p class="hero-description">Стань инженером-электронщиком и создавай современные электронные устройства. Освой проектирование, программирование микроконтроллеров и IoT-технологии.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">92%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">80+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов по разработке, проектированию и программированию электронных устройств и систем. Студенты изучают схемотехнику, программирование микроконтроллеров, IoT-технологии и проектирование печатных плат.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Техник-электроник" и "Разработчик электронных устройств". Дополнительно доступны сертификации по работе с Arduino, Raspberry Pi и системам автоматизированного проектирования.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать разработчиком электронных устройств, инженером-электронщиком, специалистом по IoT, робототехником, embedded-разработчиком и другими востребованными техническими профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы электротехники</li>
+                        <li><i class="fas fa-check"></i> Электронные компоненты</li>
+                        <li><i class="fas fa-check"></i> Основы программирования</li>
+                        <li><i class="fas fa-check"></i> Черчение и схемотехника</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Микроконтроллеры и процессоры</li>
+                        <li><i class="fas fa-check"></i> Проектирование печатных плат</li>
+                        <li><i class="fas fa-check"></i> Цифровая и аналоговая электроника</li>
+                        <li><i class="fas fa-check"></i> Сигналы и системы</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Интернет вещей (IoT)</li>
+                        <li><i class="fas fa-check"></i> Встраиваемые системы</li>
+                        <li><i class="fas fa-check"></i> Робототехника</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Наши преподаватели</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Виктор Семенов</h3>
+                        <p class="teacher-subject">Электроника и микроконтроллеры</p>
+                        <p class="teacher-exp">Опыт работы: 16 лет</p>
+                        <p>Кандидат технических наук. Эксперт по проектированию электронных устройств и программированию микроконтроллеров. Автор патентов в области электроники.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Ольга Ковалева</h3>
+                        <p class="teacher-subject">Проектирование печатных плат</p>
+                        <p class="teacher-exp">Опыт работы: 12 лет</p>
+                        <p>Специалист по системам автоматизированного проектирования (CAD). Эксперт по Altium Designer и KiCad. Преподает современные методы проектирования электронных устройств.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Андрей Морозов</h3>
+                        <p class="teacher-subject">Робототехника и IoT</p>
+                        <p class="teacher-exp">Опыт работы: 10 лет</p>
+                        <p>Эксперт по разработке робототехнических систем и интернету вещей. Специалист по Arduino, Raspberry Pi и промышленной автоматизации. Участник международных проектов.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-ninja"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Екатерина Васнецова</h3>
+                        <p class="teacher-subject">Встраиваемые системы</p>
+                        <p class="teacher-exp">Опыт работы: 11 лет</p>
+                        <p>Специалист по разработке встраиваемых систем и реального времени. Эксперт по STM32, ESP32 и FreeRTOS. Автор курсов по embedded-программированию.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория электроники</h3>
+                        <p>Современное оборудование для изучения электронных компонентов, схемотехники и проектирования электронных устройств.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Осциллографы и генераторы</li>
+                            <li><i class="fas fa-check"></i> Паяльные станции</li>
+                            <li><i class="fas fa-check"></i> Измерительные приборы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория робототехники</h3>
+                        <p>Оборудование для разработки робототехнических систем, изучения микроконтроллеров и интернета вещей.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Платформы Arduino и Raspberry</li>
+                            <li><i class="fas fa-check"></i> 3D-принтеры</li>
+                            <li><i class="fas fa-check"></i> Робототехнические конструкторы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Достижения студентов 2024</h2>
+            <div class="achievements">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Олимпиада "Электроника будущего"</h3>
+                    <p>1 место в номинации "Лучший IoT-проект". Проект: "Умная система мониторинга воздуха"</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>RoboCup Russia 2024</h3>
+                    <p>2 место в категории "Автономные роботы". Участник: Дмитрий Иванов</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Стартап проект</h3>
+                    <p>Студенты разработали систему умного дома для людей с ограниченными возможностями, получили грант на развитие.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Образцова, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@stmiit.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="#"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

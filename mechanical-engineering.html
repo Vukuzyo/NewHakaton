@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 15.02.08 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">15.02.08</h1>
+                <p class="hero-subtitle">Технология машиностроения</p>
+                <p class="hero-description">Стань специалистом в области современного машиностроения. Освой CAD/CAM системы, аддитивные технологии и цифровое производство.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">93%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">90+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов в области технологии машиностроения, способных разрабатывать и внедрять современные производственные процессы. Студенты изучают CAD/CAM системы, аддитивные технологии, метрологию и автоматизацию производства.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Техник-технолог" и "Специалист по CAD/CAM системам". Дополнительно доступны сертификации по работе с системами автоматизированного проектирования.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать технологом машиностроительного производства, конструктором-технологом, специалистом по CAD/CAM системам, оператором станков с ЧПУ и другими востребованными техническими профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Инженерная графика</li>
+                        <li><i class="fas fa-check"></i> Техническая механика</li>
+                        <li><i class="fas fa-check"></i> Материаловедение</li>
+                        <li><i class="fas fa-check"></i> Основы метрологии</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Технология машиностроения</li>
+                        <li><i class="fas fa-check"></i> CAD/CAM системы</li>
+                        <li><i class="fas fa-check"></i> Оборудование машиностроения</li>
+                        <li><i class="fas fa-check"></i> Программирование ЧПУ</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Аддитивные технологии</li>
+                        <li><i class="fas fa-check"></i> Автоматизация производства</li>
+                        <li><i class="fas fa-check"></i> Контроль качества</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Наши преподаватели</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Владимир Орлов</h3>
+                        <p class="teacher-subject">Технология машиностроения</p>
+                        <p class="teacher-exp">Опыт работы: 20 лет</p>
+                        <p>Кандидат технических наук. Эксперт по технологии машиностроения и производственным процессам. Автор учебных пособий по машиностроению.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Татьяна Морозова</h3>
+                        <p class="teacher-subject">CAD/CAM системы</p>
+                        <p class="teacher-exp">Опыт работы: 15 лет</p>
+                        <p>Специалист по системам автоматизированного проектирования. Эксперт по SolidWorks, AutoCAD, КОМПАС. Преподает современные методы проектирования в машиностроении.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Андрей Громов</h3>
+                        <p class="teacher-subject">Станки с ЧПУ и автоматизация</p>
+                        <p class="teacher-exp">Опыт работы: 18 лет</p>
+                        <p>Эксперт по станкам с числовым программным управлением и автоматизации производственных процессов. Специалист по программированию ЧПУ и роботизации.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-ninja"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Мария Семенова</h3>
+                        <p class="teacher-subject">Аддитивные технологии</p>
+                        <p class="teacher-exp">Опыт работы: 10 лет</p>
+                        <p>Специалист по 3D-печати и аддитивным технологиям. Эксперт по быстрому прототипированию и цифровому производству. Преподает современные подходы к созданию изделий.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория CAD/CAM</h3>
+                        <p>Современные компьютеры с установленными системами автоматизированного проектирования для изучения проектирования в машиностроении.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Системы SolidWorks, AutoCAD</li>
+                            <li><i class="fas fa-check"></i> Рабочие станции для 3D-моделирования</li>
+                            <li><i class="fas fa-check"></i> Симуляторы обработки</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория станков с ЧПУ</h3>
+                        <p>Оборудование для изучения станков с числовым программным управлением и автоматизации производственных процессов.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Фрезерные станки с ЧПУ</li>
+                            <li><i class="fas fa-check"></i> Токарные станки с ЧПУ</li>
+                            <li><i class="fas fa-check"></i> 3D-принтеры</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Достижения студентов 2024</h2>
+            <div class="achievements">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Конкурс "Инновации в машиностроении"</h3>
+                    <p>1 место в номинации "Лучший технологический проект". Проект: "Оптимизация процесса изготовления деталей"</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>WorldSkills Russia 2024</h3>
+                    <p>3 место в компетенции "Токарные работы на станках с ЧПУ". Участник: Алексей Козлов</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Проект для автомобильного завода</h3>
+                    <p>Студенты разработали технологический процесс изготовления новой детали, что позволило сократить время производства на 20%.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Образцова, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@stmiit.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="#"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

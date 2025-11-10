@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СТМиИТ 2025 - Техникум современных технологий</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">СТМиИТ 2025</h1>
+                <p class="hero-subtitle">Техникум современных технологий и инновационных решений</p>
+                <p class="hero-description">Образовательная платформа будущего уже сегодня. Готовим специалистов для цифровой экономики 2025 года с акцентом на практические навыки и востребованные компетенции.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">9</span>
+                        <span class="stat-label">Специальностей</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">94%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialties')">
+                    <span>Выбрать специальность</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialties">
+            <h2 class="section-title">Все специальности 2025</h2>
+            <p class="section-subtitle">Выберите направление обучения для подробного изучения</p>
+            
+            <div class="specialties-grid">
+                <a href="programming.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Информационные системы и программирование</h3>
+                        <div class="specialty-code">09.02.07</div>
+                        <p>Full-stack разработка, искусственный интеллект, кибербезопасность и создание современных IT-решений</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">96% трудоустройство</span>
+                            <span class="stat-badge">3.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="network-admin.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Сетевое и системное администрирование</h3>
+                        <div class="specialty-code">09.02.06</div>
+                        <p>Корпоративные сети, кибербезопасность, облачные технологии и управление IT-инфраструктурой</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">92% трудоустройство</span>
+                            <span class="stat-badge">3.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="electronic-devices.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Разработка электронных устройств</h3>
+                        <div class="specialty-code">11.02.01</div>
+                        <p>Проектирование электронных систем, IoT устройства, робототехника и умные технологии</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">89% трудоустройство</span>
+                            <span class="stat-badge">3.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="electrical-equipment.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Эксплуатация электрооборудования</h3>
+                        <div class="specialty-code">13.02.07</div>
+                        <p>Энергетические системы, автоматизация, smart grid и современное электрооборудование</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">91% трудоустройство</span>
+                            <span class="stat-badge">3.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="mechanical-engineering.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Технология машиностроения</h3>
+                        <div class="specialty-code">15.02.08</div>
+                        <p>CAD/CAM системы, 3D-моделирование, автоматизация производства и цифровые двойники</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">88% трудоустройство</span>
+                            <span class="stat-badge">3.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="transport-management.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Организация перевозок</h3>
+                        <div class="specialty-code">23.02.01</div>
+                        <p>Логистические системы, управление цепями поставок, транспортная аналитика и автоматизация</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">90% трудоустройство</span>
+                            <span class="stat-badge">2.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="economics-accounting.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Экономика и бухгалтерский учет</h3>
+                        <div class="specialty-code">38.02.01</div>
+                        <p>Цифровая экономика, финансовые технологии, бизнес-аналитика и автоматизация учета</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">93% трудоустройство</span>
+                            <span class="stat-badge">2.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="trade.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Торговое дело</h3>
+                        <div class="specialty-code">38.02.05</div>
+                        <p>Электронная коммерция, цифровой маркетинг, мерчандайзинг и управление розничными сетями</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">95% трудоустройство</span>
+                            <span class="stat-badge">2.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+
+                <a href="design.html" class="specialty-card">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Дизайн</h3>
+                        <div class="specialty-code">54.02.01</div>
+                        <p>Графический дизайн, UX/UI, 3D-визуализация, брендинг и цифровые медиа технологии</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">87% трудоустройство</span>
+                            <span class="stat-badge">3.5 года</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Почему выбирают СТМиИТ?</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Современное образование</h3>
+                    <p>Программы обучения соответствуют требованиям цифровой экономики 2025 года. Акцент на практические навыки и проектный подход.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Гарантированное трудоустройство</h3>
+                    <p>94% выпускников трудоустраиваются по специальности. Более 200 компаний-партнеров обеспечивают стажировки и карьерный рост.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Инновационные лаборатории</h3>
+                    <p>Современное оборудование, VR/AR технологии, робототехника и специализированные программные комплексы для практического обучения.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Как поступить в 2025 году</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>Шаг 1</h3>
+                        <span class="semester-badge">Подача документов</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Выберите специальность</li>
+                        <li><i class="fas fa-check"></i> Подготовьте документы</li>
+                        <li><i class="fas fa-check"></i> Подайте заявление онлайн</li>
+                        <li><i class="fas fa-check"></i> Дождитесь приглашения</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>Шаг 2</h3>
+                        <span class="semester-badge">Вступительные испытания</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Пройдите тестирование</li>
+                        <li><i class="fas fa-check"></i> Предоставьте портфолио</li>
+                        <li><i class="fas fa-check"></i> Пройдите собеседование</li>
+                        <li><i class="fas fa-check"></i> Узнайте результаты</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>Шаг 3</h3>
+                        <span class="semester-badge">Зачисление</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Предоставьте оригиналы</li>
+                        <li><i class="fas fa-check"></i> Заключите договор</li>
+                        <li><i class="fas fa-check"></i> Оплатите обучение</li>
+                        <li><i class="fas fa-check"></i> Получите студенческий</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Образцова, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@stmiit.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="#"><i class="fas fa-home"></i> Главная</a>
+                    <a href="#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Функция для плавной прокрутки
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Анимация появления элементов при скролле
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.specialty-card, .info-card, .semester');
+            
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+
+        // Инициализация анимации
+        window.addEventListener('scroll', animateOnScroll);
+        
+        // Первоначальный вызов для элементов уже в области видимости
+        document.addEventListener('DOMContentLoaded', () => {
+            // Устанавливаем начальные стили для анимации
+            document.querySelectorAll('.specialty-card, .info-card, .semester').forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(30px)';
+                element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            });
+            
+            setTimeout(animateOnScroll, 100);
+        });
+    </script>
+</body>
+</html>

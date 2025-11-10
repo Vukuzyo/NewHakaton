@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационные системы и программирование - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">09.02.07</h1>
+                <p class="hero-subtitle">Информационные системы и программирование</p>
+                <p class="hero-description">Стань востребованным IT-специалистом в современном цифровом мире 2025 года. Освой программирование, веб-разработку и искусственный интеллект.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">96%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит full-stack разработчиков, способных создавать современные веб-приложения, мобильные приложения и информационные системы. Студенты изучают языки программирования, фреймворки, базы данных и технологии искусственного интеллекта.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Разработчик веб и мультимедийных приложений" и "Программист". Дополнительно доступны сертификации по технологиям Microsoft, Google и AWS.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать full-stack разработчиком, AI-инженером, специалистом по кибербезопасности, DevOps-инженером, AR/VR разработчиком и многими другими востребованными IT-профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы программирования</li>
+                        <li><i class="fas fa-check"></i> Веб-технологии</li>
+                        <li><i class="fas fa-check"></i> Базы данных</li>
+                        <li><i class="fas fa-check"></i> Компьютерные сети</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Объектно-ориентированное программирование</li>
+                        <li><i class="fas fa-check"></i> Фронтенд-разработка</li>
+                        <li><i class="fas fa-check"></i> Бэкенд-разработка</li>
+                        <li><i class="fas fa-check"></i> Мобильная разработка</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Машинное обучение и AI</li>
+                        <li><i class="fas fa-check"></i> Кибербезопасность</li>
+                        <li><i class="fas fa-check"></i> DevOps практики</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Мини-игра: Исправь ошибку в коде</h2>
+            <p>Проверьте свои навыки программиста! В представленном коде есть несколько ошибок. Исправьте их прямо в редакторе и проверьте решение!</p>
+            
+            <div class="game-container">
+                <div class="game-header">
+                    <div class="level-indicator">Уровень: <span id="currentLevel">1</span>/3</div>
+                    <div class="score">Очки: <span id="score">0</span></div>
+                </div>
+                
+                <div class="code-editor">
+                    <div class="code-header">
+                        <span>script.js</span>
+                        <div class="code-actions">
+                            <button class="code-btn" id="runCode">
+                                <i class="fas fa-play"></i>
+                                Запустить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="code-content">
+                        <textarea id="codeInput" spellcheck="false"></textarea>
+                    </div>
+                </div>
+
+                <div class="game-controls">
+                    <button class="btn btn-primary" id="checkCodeBtn">
+                        <i class="fas fa-check"></i>
+                        Проверить код
+                    </button>
+                    <button class="btn btn-secondary" id="hintBtn">
+                        <i class="fas fa-lightbulb"></i>
+                        Подсказка
+                    </button>
+                    <button class="btn btn-secondary" id="resetGameBtn">
+                        <i class="fas fa-redo"></i>
+                        Сбросить уровень
+                    </button>
+                    <button class="btn btn-secondary" id="nextLevelBtn" style="display: none;">
+                        <i class="fas fa-arrow-right"></i>
+                        Следующий уровень
+                    </button>
+                </div>
+
+                <div id="gameMessage"></div>
+                <div id="output" class="output-container"></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Наши преподаватели</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Иван Петров</h3>
+                        <p class="teacher-subject">Программирование на Java и Python</p>
+                        <p class="teacher-exp">Опыт работы: 15 лет</p>
+                        <p>Кандидат технических наук. Автор 3 учебных пособий по программированию. Специалист в области AI и машинного обучения.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Мария Сидорова</h3>
+                        <p class="teacher-subject">Базы данных и кибербезопасность</p>
+                        <p class="teacher-exp">Опыт работы: 12 лет</p>
+                        <p>Доктор технических наук. Эксперт по реляционным и NoSQL базам данных. Сертифицированный специалист по кибербезопасности.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Алексей Кузнецов</h3>
+                        <p class="teacher-subject">Веб-разработка и DevOps</p>
+                        <p class="teacher-exp">Опыт работы: 10 лет</p>
+                        <p>Full-stack разработчик с опытом работы в ведущих IT-компаниях. Преподавает 8 лет. Специалист по облачным технологиям и микросервисной архитектуре.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-ninja"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Ольга Новикова</h3>
+                        <p class="teacher-subject">Мобильная разработка и UI/UX дизайн</p>
+                        <p class="teacher-exp">Опыт работы: 8 лет</p>
+                        <p>Эксперт по кроссплатформенной мобильной разработке. Сертифицированный специалист по Material Design и Human Interface Guidelines.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория программирования</h3>
+                        <p>Современные компьютеры с установленными средами разработки, системами контроля версий и инструментами для коллективной работы.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Мощные рабочие станции</li>
+                            <li><i class="fas fa-check"></i> Доступ к облачным платформам</li>
+                            <li><i class="fas fa-check"></i> VR/AR оборудование</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория сетевых технологий</h3>
+                        <p>Оборудование для изучения компьютерных сетей, кибербезопасности и интернета вещей (IoT).</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Серверное оборудование</li>
+                            <li><i class="fas fa-check"></i> Сетевые симуляторы</li>
+                            <li><i class="fas fa-check"></i> IoT устройства и датчики</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Достижения студентов 2024</h2>
+            <div class="achievements">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Хакатон "Цифровой прорыв"</h3>
+                    <p>1 место в региональном этапе. Проект: "Умная система управления отходами"</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>WorldSkills Russia 2024</h3>
+                    <p>2 место в компетенции "Веб-разработка". Участник: Алексей Смирнов</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Стартап проекта</h3>
+                    <p>Выпускники основали IT-компанию "Neotech", привлекшую 5 млн рублей инвестиций</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Образцова, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@stmiit.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Инициализация мини-игры для программирования
+        function initProgrammingGame() {
+            const codeInput = document.getElementById('codeInput');
+            const checkCodeBtn = document.getElementById('checkCodeBtn');
+            const hintBtn = document.getElementById('hintBtn');
+            const resetGameBtn = document.getElementById('resetGameBtn');
+            const nextLevelBtn = document.getElementById('nextLevelBtn');
+            const message = document.getElementById('gameMessage');
+            const output = document.getElementById('output');
+            const currentLevel = document.getElementById('currentLevel');
+            const scoreElement = document.getElementById('score');
+            
+            let currentGameLevel = 1;
+            let score = 0;
+            
+            const levels = [
+                {
+                    initialCode: `function calculateSum(a, b) {\n    // TODO: исправить ошибку\n    return a + b\n}\n\n// Тест\nconsole.log(calculateSum(5, 3));`,
+                    correctCode: `function calculateSum(a, b) {\n    return a + b;\n}\n\n// Тест\nconsole.log(calculateSum(5, 3));`,
+                    hint: "Проверьте точку с запятой в конце строки",
+                    test: () => {
+                        try {
+                            eval(codeInput.value);
+                            return output.textContent.includes('8');
+                        } catch (e) {
+                            return false;
+                        }
+                    }
+                },
+                {
+                    initialCode: `for (let i = 0; i < 5; i++) {\n    // TODO: исправить ошибку\n    console.log("Число: " i)\n}`,
+                    correctCode: `for (let i = 0; i < 5; i++) {\n    console.log("Число: " + i);\n}`,
+                    hint: "Не хватает оператора конкатенации строк",
+                    test: () => {
+                        try {
+                            output.textContent = '';
+                            eval(codeInput.value);
+                            return output.textContent.includes('Число: 0') && 
+                                   output.textContent.includes('Число: 4');
+                        } catch (e) {
+                            return false;
+                        }
+                    }
+                },
+                {
+                    initialCode: `const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(num => {\n    // TODO: исправить ошибку\n    return num * 2\n})\nconsole.log(doubled);`,
+                    correctCode: `const numbers = [1, 2, 3, 4, 5];\nconst doubled = numbers.map(num => {\n    return num * 2;\n});\nconsole.log(doubled);`,
+                    hint: "Проверьте все точки с запятой и синтаксис стрелочных функций",
+                    test: () => {
+                        try {
+                            output.textContent = '';
+                            eval(codeInput.value);
+                            return output.textContent.includes('2,4,6,8,10');
+                        } catch (e) {
+                            return false;
+                        }
+                    }
+                }
+            ];
+
+            function loadLevel(level) {
+                codeInput.value = levels[level - 1].initialCode;
+                currentLevel.textContent = level;
+                output.textContent = '';
+                message.textContent = '';
+                nextLevelBtn.style.display = 'none';
+            }
+
+            function checkCode() {
+                const level = levels[currentGameLevel - 1];
+                
+                try {
+                    output.textContent = '';
+                    eval(codeInput.value);
+                    
+                    if (level.test()) {
+                        score += 10;
+                        scoreElement.textContent = score;
+                        message.innerHTML = '<i class="fas fa-check-circle"></i> Отлично! Код работает правильно!';
+                        message.style.color = '#10b981';
+                        message.style.backgroundColor = 'rgba(16, 185, 129, 0.1)';
+                        message.style.borderColor = '#10b981';
+                        
+                        if (currentGameLevel < levels.length) {
+                            nextLevelBtn.innerHTML = '<i class="fas fa-arrow-right"></i> Следующий уровень';
+                        } else {
+                            nextLevelBtn.innerHTML = '<i class="fas fa-trophy"></i> Завершить игру';
+                        }
+                        nextLevelBtn.style.display = 'flex';
+                    } else {
+                        message.innerHTML = '<i class="fas fa-exclamation-circle"></i> Код работает, но результат неверный. Попробуйте еще раз!';
+                        message.style.color = '#f59e0b';
+                        message.style.backgroundColor = 'rgba(245, 158, 11, 0.1)';
+                        message.style.borderColor = '#f59e0b';
+                    }
+                } catch (error) {
+                    message.innerHTML = `<i class="fas fa-times-circle"></i> Ошибка: ${error.message}`;
+                    message.style.color = '#ef4444';
+                    message.style.backgroundColor = 'rgba(239, 68, 68, 0.1)';
+                    message.style.borderColor = '#ef4444';
+                }
+            }
+
+            function showHint() {
+                const level = levels[currentGameLevel - 1];
+                alert(`Подсказка: ${level.hint}`);
+            }
+
+            function nextLevel() {
+                if (currentGameLevel < levels.length) {
+                    currentGameLevel++;
+                    loadLevel(currentGameLevel);
+                } else {
+                    // Завершение игры
+                    currentGameLevel = 1;
+                    score = 0;
+                    scoreElement.textContent = score;
+                    loadLevel(currentGameLevel);
+                    message.innerHTML = '<i class="fas fa-trophy"></i> Поздравляем! Вы завершили все уровни!';
+                    message.style.color = '#8b5cf6';
+                    message.style.backgroundColor = 'rgba(139, 92, 246, 0.1)';
+                    message.style.borderColor = '#8b5cf6';
+                }
+            }
+
+            function runCode() {
+                try {
+                    output.textContent = '';
+                    eval(codeInput.value);
+                } catch (error) {
+                    output.textContent = `Ошибка: ${error.message}`;
+                }
+            }
+
+            // Обработчики событий
+            checkCodeBtn.addEventListener('click', checkCode);
+            hintBtn.addEventListener('click', showHint);
+            resetGameBtn.addEventListener('click', () => loadLevel(currentGameLevel));
+            nextLevelBtn.addEventListener('click', nextLevel);
+            document.getElementById('runCode').addEventListener('click', runCode);
+
+            // Инициализация игры
+            loadLevel(currentGameLevel);
+        }
+
+        // Инициализация игры при загрузке страницы
+        document.addEventListener('DOMContentLoaded', initProgrammingGame);
+
+        // Функция для плавной прокрутки
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+</body>
+</html>

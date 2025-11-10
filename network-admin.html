@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 09.02.06 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">09.02.06</h1>
+                <p class="hero-subtitle">Сетевое и системное администрирование</p>
+                <p class="hero-description">Стань специалистом по построению и обслуживанию компьютерных сетей. Освой администрирование серверов, кибербезопасность и облачные технологии.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">94%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">120+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов по построению, настройке и обслуживанию компьютерных сетей, серверного оборудования и систем хранения данных. Студенты изучают сетевое администрирование, кибербезопасность, облачные технологии и виртуализацию.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Сетевой и системный администратор" и "Специалист по информационной безопасности". Дополнительно доступны сертификации Cisco, Microsoft, Linux Professional Institute.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать сетевым администратором, специалистом по кибербезопасности, DevOps-инженером, облачным архитектором, администратором серверов и многими другими востребованными IT-профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы сетевых технологий</li>
+                        <li><i class="fas fa-check"></i> Операционные системы</li>
+                        <li><i class="fas fa-check"></i> Компьютерное железо</li>
+                        <li><i class="fas fa-check"></i> Основы программирования</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Сетевые операционные системы</li>
+                        <li><i class="fas fa-check"></i> Администрирование серверов</li>
+                        <li><i class="fas fa-check"></i> Виртуализация</li>
+                        <li><i class="fas fa-check"></i> Основы кибербезопасности</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Облачные технологии</li>
+                        <li><i class="fas fa-check"></i> Защита сетевой инфраструктуры</li>
+                        <li><i class="fas fa-check"></i> DevOps практики</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Наши преподаватели</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Дмитрий Волков</h3>
+                        <p class="teacher-subject">Сетевые технологии и кибербезопасность</p>
+                        <p class="teacher-exp">Опыт работы: 14 лет</p>
+                        <p>Сертифицированный специалист Cisco (CCIE). Эксперт по построению корпоративных сетей и системам защиты информации. Автор курсов по сетевой безопасности.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Сергей Новиков</h3>
+                        <p class="teacher-subject">Системное администрирование</p>
+                        <p class="teacher-exp">Опыт работы: 12 лет</p>
+                        <p>Эксперт по Linux и Windows Server. Сертифицированный специалист Microsoft (MCSE) и Red Hat (RHCE). Специалист по облачным платформам и виртуализации.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Анна Козлова</h3>
+                        <p class="teacher-subject">Облачные технологии и DevOps</p>
+                        <p class="teacher-exp">Опыт работы: 9 лет</p>
+                        <p>Сертифицированный специалист AWS и Azure. Эксперт по контейнеризации и оркестрации. Преподает современные подходы к развертыванию и управлению инфраструктурой.</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo-container">
+                        <div class="teacher-photo">
+                            <i class="fas fa-user-ninja"></i>
+                        </div>
+                        <div class="teacher-overlay">
+                            <div class="teacher-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3 class="teacher-name">Михаил Орлов</h3>
+                        <p class="teacher-subject">Кибербезопасность и пентестинг</p>
+                        <p class="teacher-exp">Опыт работы: 11 лет</p>
+                        <p>Сертифицированный этичный хакер (CEH). Специалист по тестированию на проникновение и анализу уязвимостей. Автор методик защиты корпоративных сетей.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория сетевых технологий</h3>
+                        <p>Современное сетевое оборудование Cisco, коммутаторы, маршрутизаторы и точки доступа для практического изучения построения компьютерных сетей.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Оборудование Cisco</li>
+                            <li><i class="fas fa-check"></i> Сетевые симуляторы</li>
+                            <li><i class="fas fa-check"></i> Измерительные приборы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория системного администрирования</h3>
+                        <p>Серверное оборудование и системы хранения данных для изучения администрирования Windows и Linux серверов.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Серверные стойки</li>
+                            <li><i class="fas fa-check"></i> Системы хранения данных</li>
+                            <li><i class="fas fa-check"></i> Виртуализация</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Достижения студентов 2024</h2>
+            <div class="achievements">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Чемпионат "Сетевое администрирование"</h3>
+                    <p>1 место в национальном чемпионате. Участник: Андрей Семенов</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>WorldSkills Russia 2024</h3>
+                    <p>3 место в компетенции "Сетевое и системное администрирование". Участник: Елена Петрова</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Проект для городской администрации</h3>
+                    <p>Студенты разработали и внедрили систему защиты сети для администрации города, получив благодарность от мэра.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Образцова, 15</p>
+                    <p><i class="fas fa-phone"></i> +7 (495) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@stmiit.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="#"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
