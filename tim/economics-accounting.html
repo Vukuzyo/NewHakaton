@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 38.02.01 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_game_economics.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">38.02.01</h1>
+                <p class="hero-subtitle">Экономика и бухгалтерский учет</p>
+                <p class="hero-description">Стань специалистом в области экономики и финансов. Освой современные методы бухгалтерского учета, финансового анализа и управления предприятием.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">2.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов в области экономики, бухгалтерского учета и финансового анализа. Студенты изучают бухгалтерский учет, налогообложение, финансовый анализ, экономику организации и современные информационные системы в экономике.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Бухгалтер" и "Специалист по экономике и бухгалтерскому учету". Дополнительно доступны сертификации по программам 1С и международным стандартам финансовой отчетности.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать бухгалтером, экономистом, финансовым аналитиком, специалистом по налогообложению, аудитором и другими востребованными профессиями в сфере экономики и финансов.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы экономической теории</li>
+                        <li><i class="fas fa-check"></i> Бухгалтерский учет</li>
+                        <li><i class="fas fa-check"></i> Статистика</li>
+                        <li><i class="fas fa-check"></i> Информационные технологии</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Налоги и налогообложение</li>
+                        <li><i class="fas fa-check"></i> Финансовый анализ</li>
+                        <li><i class="fas fa-check"></i> Автоматизация бухгалтерского учета</li>
+                        <li><i class="fas fa-check"></i> Аудит</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Международные стандарты отчетности</li>
+                        <li><i class="fas fa-check"></i> Управленческий учет</li>
+                        <li><i class="fas fa-check"></i> Финансовый менеджмент</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Компьютерный класс бухгалтерского учета</h3>
+                        <p>Современные компьютеры с установленными программами для автоматизации бухгалтерского учета и финансового анализа.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Системы финансового анализа</li>
+                            <li><i class="fas fa-check"></i> Офисные приложения</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория финансового анализа</h3>
+                        <p>Оборудование и программное обеспечение для изучения финансового анализа и управления финансами.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Системы бизнес-аналитики</li>
+                            <li><i class="fas fa-check"></i> Программы для финансового моделирования</li>
+                            <li><i class="fas fa-check"></i> Базы финансовых данных</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Мини-игра: Финансовые вызовы</h2>
+            <div class="game-container">
+                <div class="game-description">
+                    <p>Проверьте свои знания в бухгалтерском учете и финансовом анализе! Пройдите три уровня сложности, решая реальные экономические задачи.</p>
+                </div>
+                
+                <div class="game-levels">
+                    <div class="level-card" data-level="1">
+                        <div class="level-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Начинающий</h3>
+                        <p>Основные проводки и операции</p>
+                        <span class="level-badge">Легко</span>
+                    </div>
+                    <div class="level-card" data-level="2">
+                        <div class="level-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Продвинутый</h3>
+                        <p>Налоги и амортизация</p>
+                        <span class="level-badge">Средне</span>
+                    </div>
+                    <div class="level-card" data-level="3">
+                        <div class="level-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Эксперт</h3>
+                        <p>Финансовый анализ и отчетность</p>
+                        <span class="level-badge">Сложно</span>
+                    </div>
+                </div>
+
+                <!-- Уровень 1 -->
+                <div class="game-content level-1" id="level1">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-seedling"></i>
+                            Уровень 1: Основные проводки
+                            <span class="level-indicator">Начинающий</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">3</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">5 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">15</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Выберите правильную бухгалтерскую проводку для каждой хозяйственной операции. Обратите внимание на корреспонденцию счетов.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Приобретение основных средств
+                        </div>
+                        <p>ООО "Вектор" приобрело компьютер для бухгалтерии стоимостью 65 000 рублей. Срок полезного использования - 4 года. Выберите правильный вариант отражения операции в учете.</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectAccountingOption(this, '1A')">
+                                <input type="radio" name="accountingOption1" id="option1A">
+                                <label for="option1A" class="option-label">A) Дт 08 Кт 60 - 65 000 руб. (Принятие к учету ОС)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '1B')">
+                                <input type="radio" name="accountingOption1" id="option1B">
+                                <label for="option1B" class="option-label">B) Дт 10 Кт 60 - 65 000 руб. (Приобретение материалов)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '1C')">
+                                <input type="radio" name="accountingOption1" id="option1C">
+                                <label for="option1C" class="option-label">C) Дт 26 Кт 60 - 65 000 руб. (Отнесение на общехозяйственные расходы)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '1D')">
+                                <input type="radio" name="accountingOption1" id="option1D">
+                                <label for="option1D" class="option-label">D) Дт 41 Кт 60 - 65 000 руб. (Приобретение товаров)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Выдача заработной платы
+                        </div>
+                        <p>Организация выдала заработную плату сотрудникам из кассы на сумму 450 000 рублей. Выберите правильную проводку.</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectAccountingOption(this, '2A')">
+                                <input type="radio" name="accountingOption2" id="option2A">
+                                <label for="option2A" class="option-label">A) Дт 70 Кт 50 - 450 000 руб. (Выдача зарплаты из кассы)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '2B')">
+                                <input type="radio" name="accountingOption2" id="option2B">
+                                <label for="option2B" class="option-label">B) Дт 20 Кт 70 - 450 000 руб. (Начисление зарплаты)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '2C')">
+                                <input type="radio" name="accountingOption2" id="option2C">
+                                <label for="option2C" class="option-label">C) Дт 70 Кт 51 - 450 000 руб. (Перечисление зарплаты на карты)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '2D')">
+                                <input type="radio" name="accountingOption2" id="option2D">
+                                <label for="option2D" class="option-label">D) Дт 50 Кт 70 - 450 000 руб. (Получение денег для выдачи зарплаты)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 3: Реализация товаров
+                        </div>
+                        <p>Организация продала товары на сумму 120 000 рублей (включая НДС 20%). Себестоимость товаров - 80 000 рублей. Выберите правильные проводки.</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectAccountingOption(this, '3A')">
+                                <input type="radio" name="accountingOption3" id="option3A">
+                                <label for="option3A" class="option-label">A) Дт 62 Кт 90.1 - 120 000 руб.; Дт 90.2 Кт 41 - 80 000 руб.; Дт 90.3 Кт 68 - 20 000 руб.</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '3B')">
+                                <input type="radio" name="accountingOption3" id="option3B">
+                                <label for="option3B" class="option-label">B) Дт 51 Кт 90.1 - 120 000 руб.; Дт 90.2 Кт 41 - 80 000 руб.</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '3C')">
+                                <input type="radio" name="accountingOption3" id="option3C">
+                                <label for="option3C" class="option-label">C) Дт 62 Кт 90.1 - 120 000 руб.; Дт 90.2 Кт 41 - 80 000 руб.</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '3D')">
+                                <input type="radio" name="accountingOption3" id="option3D">
+                                <label for="option3D" class="option-label">D) Дт 62 Кт 90.1 - 120 000 руб.; Дт 90.2 Кт 41 - 80 000 руб.; Дт 90.3 Кт 68 - 24 000 руб.</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkAccountingSolution(1)">
+                            <i class="fas fa-check"></i> Проверить решение
+                        </button>
+                        <button class="btn btn-secondary" onclick="showAccountingHint(1)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetAccountingLevel(1)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="accountingGameMessage1" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 2 -->
+                <div class="game-content level-2" id="level2">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-rocket"></i>
+                            Уровень 2: Налоги и амортизация
+                            <span class="level-indicator">Продвинутый</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">2</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">25</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Внимательно рассчитывайте суммы налогов и амортизации. Учитывайте сроки полезного использования и налоговые ставки.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Расчет налога на прибыль
+                        </div>
+                        <p>Организация за квартал имеет следующие показатели: выручка - 2 500 000 руб., расходы - 1 800 000 руб. (включая амортизацию 150 000 руб.). Рассчитайте сумму налога на прибыль к уплате (ставка 20%).</p>
+                        
+                        <div class="calculation-area">
+                            <div class="calculation-title">Формула расчета:</div>
+                            <div class="formula">Налог на прибыль = (Выручка - Расходы) × Ставка налога</div>
+                        </div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectAccountingOption(this, '4A')">
+                                <input type="radio" name="accountingOption4" id="option4A">
+                                <label for="option4A" class="option-label">A) 100 000 руб. (2 500 000 - 1 800 000) × 20%</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '4B')">
+                                <input type="radio" name="accountingOption4" id="option4B">
+                                <label for="option4B" class="option-label">B) 140 000 руб. (2 500 000 - 1 800 000) × 20%</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '4C')">
+                                <input type="radio" name="accountingOption4" id="option4C">
+                                <label for="option4C" class="option-label">C) 500 000 руб. (2 500 000 × 20%)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '4D')">
+                                <input type="radio" name="accountingOption4" id="option4D">
+                                <label for="option4D" class="option-label">D) 360 000 руб. (1 800 000 × 20%)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Расчет амортизации
+                        </div>
+                        <p>Организация приобрела оборудование стоимостью 480 000 руб. со сроком полезного использования 5 лет. Рассчитайте сумму ежемесячной амортизации линейным методом.</p>
+                        
+                        <div class="calculation-area">
+                            <div class="calculation-title">Формула расчета:</div>
+                            <div class="formula">Ежемесячная амортизация = Первоначальная стоимость / Срок полезного использования в месяцах</div>
+                        </div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectAccountingOption(this, '5A')">
+                                <input type="radio" name="accountingOption5" id="option5A">
+                                <label for="option5A" class="option-label">A) 8 000 руб. (480 000 / 60 месяцев)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '5B')">
+                                <input type="radio" name="accountingOption5" id="option5B">
+                                <label for="option5B" class="option-label">B) 9 600 руб. (480 000 / 50 месяцев)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '5C')">
+                                <input type="radio" name="accountingOption5" id="option5C">
+                                <label for="option5C" class="option-label">C) 10 000 руб. (480 000 / 48 месяцев)</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '5D')">
+                                <input type="radio" name="accountingOption5" id="option5D">
+                                <label for="option5D" class="option-label">D) 7 500 руб. (480 000 / 64 месяца)</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkAccountingSolution(2)">
+                            <i class="fas fa-check"></i> Проверить решение
+                        </button>
+                        <button class="btn btn-secondary" onclick="showAccountingHint(2)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetAccountingLevel(2)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="accountingGameMessage2" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 3 -->
+                <div class="game-content level-3" id="level3">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-crown"></i>
+                            Уровень 3: Финансовый анализ
+                            <span class="level-indicator">Эксперт</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">1</div>
+                            <div>задача</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">12 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">35</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Проанализируйте финансовые показатели и определите проблемные зоны в деятельности компании. Учитывайте взаимосвязь между различными финансовыми коэффициентами.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-chart-line"></i>
+                            Задача: Анализ финансового состояния
+                        </div>
+                        <p>Проанализируйте финансовые показатели компании "Прогресс" за два года и определите, какие из приведенных выводов являются верными.</p>
+                        
+                        <div class="financial-data">
+                            <div class="data-item">
+                                <div class="data-value">15 000</div>
+                                <div class="data-label">Выручка 2023, тыс. руб.</div>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-value">18 000</div>
+                                <div class="data-label">Выручка 2024, тыс. руб.</div>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-value">1 200</div>
+                                <div class="data-label">Прибыль 2023, тыс. руб.</div>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-value">1 500</div>
+                                <div class="data-label">Прибыль 2024, тыс. руб.</div>
+                            </div>
+                        </div>
+                        
+                        <table class="accounting-table">
+                            <thead>
+                                <tr>
+                                    <th>Показатель</th>
+                                    <th>2023 год</th>
+                                    <th>2024 год</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Оборотные активы, тыс. руб.</td>
+                                    <td>4 500</td>
+                                    <td>5 800</td>
+                                </tr>
+                                <tr>
+                                    <td>Краткосрочные обязательства, тыс. руб.</td>
+                                    <td>3 000</td>
+                                    <td>4 500</td>
+                                </tr>
+                                <tr>
+                                    <td>Собственный капитал, тыс. руб.</td>
+                                    <td>8 000</td>
+                                    <td>9 200</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectAccountingOption(this, '6A')">
+                                <input type="radio" name="accountingOption6" id="option6A">
+                                <label for="option6A" class="option-label">A) Рентабельность продаж увеличилась с 8% до 8.3%</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '6B')">
+                                <input type="radio" name="accountingOption6" id="option6B">
+                                <label for="option6B" class="option-label">B) Коэффициент текущей ликвидности ухудшился с 1.5 до 1.29</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '6C')">
+                                <input type="radio" name="accountingOption6" id="option6C">
+                                <label for="option6C" class="option-label">C) Финансовая устойчивость компании улучшилась</label>
+                            </div>
+                            <div class="option" onclick="selectAccountingOption(this, '6D')">
+                                <input type="radio" name="accountingOption6" id="option6D">
+                                <label for="option6D" class="option-label">D) Все вышеперечисленные выводы верны</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkAccountingSolution(3)">
+                            <i class="fas fa-check"></i> Проверить решение
+                        </button>
+                        <button class="btn btn-secondary" onclick="showAccountingHint(3)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetAccountingLevel(3)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="accountingGameMessage3" class="output-container"></div>
+                </div>
+
+                <div class="game-complete" id="accountingGameComplete">
+                    <div class="completion-badge">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Поздравляем!</h3>
+                    <p>Вы успешно завершили все уровни финансового вызова!</p>
+                    
+                    <div class="final-stats">
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="accountingFinalScore">0</div>
+                            <div>итоговый счет</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="accountingCompletionTime">0</div>
+                            <div>минут</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value">3/3</div>
+                            <div>уровней пройдено</div>
+                        </div>
+                    </div>
+                    
+                    <div class="level-progress">
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="restartAccountingGame()">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                        <button class="btn btn-secondary" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>УР г.Сарапул ул. Гончарова д.53
+УР г.Сарапул ул. Лермонтова д.1</p>
+                    <p><i class="fas fa-phone"></i> +7 (34147) 4-43-68
++7 (34147) 4-43-69</p>
+                    <p><i class="fas fa-envelope"></i> stmit@podved-mo.udmr.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/games_economics.js"></script>
+</body>
+</html>

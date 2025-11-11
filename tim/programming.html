@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационные системы и программирование - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_game_programming.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">09.02.07</h1>
+                <p class="hero-subtitle">Информационные системы и программирование</p>
+                <p class="hero-description">Стань востребованным IT-специалистом в современном цифровом мире 2025 года. Освой программирование, веб-разработку и искусственный интеллект.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит full-stack разработчиков, способных создавать современные веб-приложения, мобильные приложения и информационные системы. Студенты изучают языки программирования, фреймворки, базы данных и технологии искусственного интеллекта.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Разработчик веб и мультимедийных приложений" и "Программист". Дополнительно доступны сертификации по технологиям Microsoft, Google и AWS.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать full-stack разработчиком, AI-инженером, специалистом по кибербезопасности, DevOps-инженером, AR/VR разработчиком и многими другими востребованными IT-профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы программирования</li>
+                        <li><i class="fas fa-check"></i> Веб-технологии</li>
+                        <li><i class="fas fa-check"></i> Базы данных</li>
+                        <li><i class="fas fa-check"></i> Компьютерные сети</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Объектно-ориентированное программирование</li>
+                        <li><i class="fas fa-check"></i> Фронтенд-разработка</li>
+                        <li><i class="fas fa-check"></i> Бэкенд-разработка</li>
+                        <li><i class="fas fa-check"></i> Мобильная разработка</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Машинное обучение и AI</li>
+                        <li><i class="fas fa-check"></i> Кибербезопасность</li>
+                        <li><i class="fas fa-check"></i> DevOps практики</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория программирования</h3>
+                        <p>Современные компьютеры с установленными средами разработки, системами контроля версий и инструментами для коллективной работы.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Мощные рабочие станции</li>
+                            <li><i class="fas fa-check"></i> Доступ к облачным платформам</li>
+                            <li><i class="fas fa-check"></i> VR/AR оборудование</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория сетевых технологий</h3>
+                        <p>Оборудование для изучения компьютерных сетей, кибербезопасности и интернета вещей (IoT).</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Серверное оборудование</li>
+                            <li><i class="fas fa-check"></i> Сетевые симуляторы</li>
+                            <li><i class="fas fa-check"></i> IoT устройства и датчики</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Мини-игра: Программирование</h2>
+            <div class="game-container">
+                <div class="game-description">
+                    <p>Проверьте свои знания программирования! Пройдите три уровня сложности, решая различные задачи по программированию.</p>
+                </div>
+                
+                <div class="game-levels">
+                    <div class="level-card" data-level="1">
+                        <div class="level-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Начинающий</h3>
+                        <p>Основы программирования</p>
+                        <span class="level-badge">Легко</span>
+                    </div>
+                    <div class="level-card" data-level="2">
+                        <div class="level-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Продвинутый</h3>
+                        <p>Алгоритмы и логика</p>
+                        <span class="level-badge">Средне</span>
+                    </div>
+                    <div class="level-card" data-level="3">
+                        <div class="level-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Эксперт</h3>
+                        <p>Сложные задачи</p>
+                        <span class="level-badge">Сложно</span>
+                    </div>
+                </div>
+
+                <!-- Уровень 1 -->
+                <div class="game-content level-1" id="level1">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-seedling"></i>
+                            Уровень 1: Основы программирования
+                            <span class="level-indicator">Начинающий</span>
+                        </div>
+                        <button class="btn btn-back" id="backBtn1">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">3</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">5 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">15</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Внимательно читайте вопросы и варианты ответов. Помните основы синтаксиса программирования.</p>
+                    </div>
+
+                    <div class="quiz-container">
+                        <div class="quiz-card">
+                            <div class="quiz-question">
+                                1. Что выведет этот код? <code>console.log(2 + "2");</code>
+                            </div>
+                            <div class="quiz-options">
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">A) 4</div>
+                                </div>
+                                <div class="quiz-option" data-correct="true">
+                                    <div class="quiz-option-label">B) "22"</div>
+                                </div>
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">C) Ошибка</div>
+                                </div>
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">D) 22</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-card">
+                            <div class="quiz-question">
+                                2. Какой оператор используется для строгого сравнения в JavaScript?
+                            </div>
+                            <div class="quiz-options">
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">A) =</div>
+                                </div>
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">B) ==</div>
+                                </div>
+                                <div class="quiz-option" data-correct="true">
+                                    <div class="quiz-option-label">C) ===</div>
+                                </div>
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">D) !=</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-card">
+                            <div class="quiz-question">
+                                3. Что такое HTML?
+                            </div>
+                            <div class="quiz-options">
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">A) Язык программирования</div>
+                                </div>
+                                <div class="quiz-option" data-correct="true">
+                                    <div class="quiz-option-label">B) Язык разметки</div>
+                                </div>
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">C) База данных</div>
+                                </div>
+                                <div class="quiz-option" data-correct="false">
+                                    <div class="quiz-option-label">D) Фреймворк</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" id="checkBtn1">
+                            <i class="fas fa-check"></i> Проверить ответы
+                        </button>
+                        <button class="btn btn-secondary" id="hintBtn1">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" id="resetBtn1">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="gameMessage1" class="game-message"></div>
+                </div>
+
+                <!-- Уровень 2 -->
+                <div class="game-content level-2" id="level2">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-rocket"></i>
+                            Уровень 2: Алгоритмы и логика
+                            <span class="level-indicator">Продвинутый</span>
+                        </div>
+                        <button class="btn btn-back" id="backBtn2">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">2</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">25</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Анализируйте алгоритмы шаг за шагом. Обратите внимание на условия циклов и рекурсии.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Сортировка алгоритмов
+                        </div>
+                        <p>Какой алгоритм сортировки имеет среднюю сложность O(n log n)?</p>
+                        
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">A) Пузырьковая сортировка</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="quiz-option-label">B) Быстрая сортировка</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">C) Сортировка вставками</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">D) Сортировка выбором</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Поиск в массиве
+                        </div>
+                        <p>Дан массив: [5, 3, 8, 1, 9, 2]. Сколько сравнений потребуется для поиска числа 9 с помощью линейного поиска?</p>
+                        
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">A) 3</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">B) 4</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">C) 5</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="quiz-option-label">D) 6</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" id="checkBtn2">
+                            <i class="fas fa-check"></i> Проверить решение
+                        </button>
+                        <button class="btn btn-secondary" id="hintBtn2">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" id="resetBtn2">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="gameMessage2" class="game-message"></div>
+                </div>
+
+                <!-- Уровень 3 -->
+                <div class="game-content level-3" id="level3">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-crown"></i>
+                            Уровень 3: Сложные задачи
+                            <span class="level-indicator">Эксперт</span>
+                        </div>
+                        <button class="btn btn-back" id="backBtn3">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">2</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">10 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">35</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Используйте логическое мышление и знания о структурах данных. Внимательно анализируйте каждую задачу.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Бинарное дерево
+                        </div>
+                        <p>Дано бинарное дерево с элементами: 8, 3, 10, 1, 6, 14, 4, 7, 13. Какой будет порядок обхода в глубину (pre-order)?</p>
+                        
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">A) 1, 3, 4, 6, 7, 8, 10, 13, 14</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="quiz-option-label">B) 8, 3, 1, 6, 4, 7, 10, 14, 13</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">C) 1, 4, 7, 6, 3, 13, 14, 10, 8</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">D) 8, 10, 14, 13, 3, 6, 7, 4, 1</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Оптимизация кода
+                        </div>
+                        <p>Дан код функции. Какую оптимизацию можно применить?</p>
+                        
+                        <div class="quiz-code">
+                            function findMax(arr) {<br>
+                            &nbsp;&nbsp;let max = arr[0];<br>
+                            &nbsp;&nbsp;for (let i = 1; i < arr.length; i++) {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;if (arr[i] > max) {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max = arr[i];<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                            &nbsp;&nbsp;}<br>
+                            &nbsp;&nbsp;return max;<br>
+                            }
+                        </div>
+                        
+                        <div class="quiz-options">
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">A) Использовать рекурсию вместо цикла</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">B) Отсортировать массив сначала</div>
+                            </div>
+                            <div class="quiz-option" data-correct="true">
+                                <div class="quiz-option-label">C) Код уже оптимален</div>
+                            </div>
+                            <div class="quiz-option" data-correct="false">
+                                <div class="quiz-option-label">D) Использовать Math.max(...arr)</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" id="checkBtn3">
+                            <i class="fas fa-check"></i> Проверить решение
+                        </button>
+                        <button class="btn btn-secondary" id="hintBtn3">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" id="resetBtn3">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="gameMessage3" class="game-message"></div>
+                </div>
+
+                <div class="game-complete" id="gameComplete">
+                    <div class="completion-badge">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Поздравляем!</h3>
+                    <p>Вы успешно завершили все уровни программирования!</p>
+                    
+                    <div class="final-stats">
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="finalScore">0</div>
+                            <div>итоговый счет</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="completionTime">0</div>
+                            <div>минут</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value">3/3</div>
+                            <div>уровней пройдено</div>
+                        </div>
+                    </div>
+                    
+                    <div class="level-progress">
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" id="restartBtn">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                        <button class="btn btn-secondary" id="backToLevelsBtn">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>УР г.Сарапул ул. Гончарова д.53
+УР г.Сарапул ул. Лермонтова д.1</p>
+                    <p><i class="fas fa-phone"></i> +7 (34147) 4-43-68
++7 (34147) 4-43-69</p>
+                    <p><i class="fas fa-envelope"></i> stmit@podved-mo.udmr.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/games_programmer.js"></script>
+</body>
+</html>

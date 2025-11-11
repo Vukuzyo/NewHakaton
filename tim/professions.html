@@ -1,0 +1,2592 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессии - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Профессии 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Профессии</h1>
+                <p class="hero-subtitle">Современные рабочие специальности 2025</p>
+                <p class="hero-description">Выберите востребованную профессию для получения практических навыков и быстрого трудоустройства на современном производстве.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Профессий</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">94%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6-36</span>
+                        <span class="stat-label">Месяцев обучения</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section">
+            <h2 class="section-title">Все профессии 2025</h2>
+            <p class="section-subtitle">Выберите профессию для подробного изучения</p>
+            
+            <div class="specialties-grid">
+                <div class="specialty-card" onclick="openModal('modal1')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Оператор станков ЧПУ</h3>
+                        <p>Работа на современных станках с числовым программным управлением. Создание деталей по чертежам с высокой точностью.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Высокая востребованность</span>
+                            <span class="stat-badge">Обучение 6-12 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="specialty-card" onclick="openModal('modal2')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Станочник широкого профиля</h3>
+                        <p>Универсальный специалист, работающий на различных типах станков: токарных, фрезерных, сверлильных и шлифовальных.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Стабильный спрос</span>
+                            <span class="stat-badge">Обучение 10-18 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="specialty-card" onclick="openModal('modal3')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Токарь</h3>
+                        <p>Специалист по обработке вращающихся деталей на токарных станках. Изготовление валов, втулок, гаек и других деталей.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Высокая востребованность</span>
+                            <span class="stat-badge">Обучение 8-14 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="specialty-card" onclick="openModal('modal4')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Фрезеровщик</h3>
+                        <p>Обработка металлических и других материалов с помощью фрезерного станка. Создание пазов, канавок, зубчатых колёс.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Стабильный спрос</span>
+                            <span class="stat-badge">Обучение 8-14 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="specialty-card" onclick="openModal('modal5')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Шлифовщик</h3>
+                        <p>Финишная обработка поверхностей деталей до требуемой шероховатости. Работа на шлифовальных и доводочных станках.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Высокая точность</span>
+                            <span class="stat-badge">Обучение 6-12 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="specialty-card" onclick="openModal('modal6')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Энергетик</h3>
+                        <p>Специалист по эксплуатации и обслуживанию энергетического оборудования. Обеспечение бесперебойного энергоснабжения.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Критически важная</span>
+                            <span class="stat-badge">Обучение 12-24 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="specialty-card" onclick="openModal('modal7')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Инженер-технолог</h3>
+                        <p>Разработка и внедрение технологических процессов производства. Оптимизация производства и контроль качества.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Высокая зарплата</span>
+                            <span class="stat-badge">Обучение 24-36 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <!-- Оператор лазерной резки -->
+                <div class="specialty-card" onclick="openModal('modal8')">
+                    <div class="specialty-card-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <div class="specialty-card-content">
+                        <h3>Оператор лазерной резки</h3>
+                        <p>Работа на современном лазерном оборудовании для точной резки различных материалов по сложным контурам.</p>
+                        <div class="specialty-stats">
+                            <span class="stat-badge">Перспективная</span>
+                            <span class="stat-badge">Обучение 6-10 мес</span>
+                        </div>
+                    </div>
+                    <div class="specialty-card-arrow">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Оператор станков ЧПУ</h2>
+                <p>Специалист по работе на современных станках с числовым программным управлением</p>
+                <div>
+                    <span class="stat-badge">Высокая востребованность</span>
+                    <span class="stat-badge">Зарплата 45,000 - 80,000 руб.</span>
+                    <span class="stat-badge">Обучение 6-12 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab1-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab1-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab1-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab1-4')">Навыки</div>
+            </div>
+            
+            <div id="tab1-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Оператор станков с числовым программным управлением (ЧПУ) — ключевой специалист современного производства, отвечающий за изготовление деталей с высокой точностью по заданным чертежам и программам.</p>
+                        <p>Профессия сочетает в себе знания механики, программирования и материаловедения. Современные операторы ЧПУ работают с CAD/CAM системами, 3D-моделированием и автоматизированными производственными линиями.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Профессия оператора ЧПУ входит в ТОП-10 самых востребованных технических специальностей. С развитием автоматизации и цифровизации производства спрос на этих специалистов растет на 15-20% ежегодно.</p>
+                        <p>Более 85% выпускников трудоустраиваются в течение первого месяца после окончания обучения. Наиболее востребованы специалисты, владеющие работой на многоосевых станках и системами автоматизированного проектирования.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">95%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">15%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">3-5 лет</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">60,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием Индустрии 4.0 и внедрением технологий "умного производства" операторы ЧПУ становятся операторами роботизированных комплексов. В ближайшие 5 лет ожидается рост спроса на специалистов, способных работать с гибридными аддитивно-субтрактивными установками и системами машинного зрения.</p>
+                </div>
+            </div>
+            
+            <div id="tab1-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Оператор ЧПУ имеет четкую и перспективную карьерную траекторию в современном машиностроении:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Оператор ЧПУ 2-3 разряда</h5>
+                            <p>Начальная позиция, работа по готовым программам, выполнение стандартных операций.</p>
+                            <div class="salary-range">35,000 - 50,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Оператор-наладчик ЧПУ 4-5 разряда</h5>
+                            <p>Самостоятельная наладка оборудования, написание простых программ, контроль качества.</p>
+                            <div class="salary-range">50,000 - 75,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Технолог-программист ЧПУ</h5>
+                            <p>Разработка управляющих программ, оптимизация технологических процессов, обучение персонала.</p>
+                            <div class="salary-range">70,000 - 100,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Инженер-технолог / Руководитель участка</h5>
+                            <p>Управление производственным участком, внедрение новых технологий, планирование загрузки оборудования.</p>
+                            <div class="salary-range">90,000 - 130,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные операторы ЧПУ могут развиваться в смежных областях:</p>
+                    <ul>
+                        <li><strong>Сервисный инженер</strong> - наладка и обслуживание станков у заказчика</li>
+                        <li><strong>Специалист по CAD/CAM системам</strong> - разработка и внедрение программного обеспечения</li>
+                        <li><strong>Преподаватель</strong> - обучение новых специалистов в учебных центрах</li>
+                        <li><strong>Технический консультант</strong> - помощь предприятиям в выборе и внедрении оборудования</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab1-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры оператора ЧПУ достаточно среднего специального образования:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский машиностроительный техникум</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Воткинский промышленный техникум</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (6-12 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (CNC программирование)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Сертификация по системам CAD/CAM (Autodesk, SolidWorks)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение работе на многоосевых и обрабатывающих центрах</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы метрологии и контроля качества</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры оператора ЧПУ рекомендуется:</p>
+                    <ul>
+                        <li>Освоить минимум одну систему CAD (AutoCAD, Компас) и одну систему CAM (Fusion 360, PowerMill)</li>
+                        <li>Изучить основы материаловедения и режущего инструмента</li>
+                        <li>Развивать пространственное мышление и внимание к деталям</li>
+                        <li>Освоить английский язык на техническом уровне для работы с импортным оборудованием</li>
+                        <li>Регулярно посещать профильные выставки и семинары (Металлообработка, IMTS)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab1-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Чтение чертежей</span>
+                            <span class="skill-tag">Основы программирования ЧПУ</span>
+                            <span class="skill-tag">Работа с измерительным инструментом</span>
+                            <span class="skill-tag">Наладка станков</span>
+                            <span class="skill-tag">Основы CAD/CAM</span>
+                            <span class="skill-tag">Технология обработки материалов</span>
+                            <span class="skill-tag">Основы электротехники</span>
+                            <span class="skill-tag">Чтение технологических карт</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Аккуратность</span>
+                            <span class="skill-tag">Пространственное мышление</span>
+                            <span class="skill-tag">Технический склад ума</span>
+                            <span class="skill-tag">Усидчивость</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Обучаемость</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Рекомендуемое программное обеспечение</h4>
+                    <p>Для успешной работы оператору ЧПУ рекомендуется освоить:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">Компас-3D</span>
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">Fusion 360</span>
+                        <span class="skill-tag">PowerMill</span>
+                        <span class="skill-tag">Mastercam</span>
+                        <span class="skill-tag">Siemens NX</span>
+                        <span class="skill-tag">SprutCAM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Станочник широкого профиля</h2>
+                <p>Универсальный специалист по обработке металлов на различных типах станков</p>
+                <div>
+                    <span class="stat-badge">Стабильный спрос</span>
+                    <span class="stat-badge">Зарплата 40,000 - 70,000 руб.</span>
+                    <span class="stat-badge">Обучение 10-18 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab2-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab2-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab2-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab2-4')">Навыки</div>
+            </div>
+            
+            <div id="tab2-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Станочник широкого профиля — это универсальный специалист, способный выполнять обработку металлов и других материалов на различных типах станков: токарных, фрезерных, сверлильных, шлифовальных и других.</p>
+                        <p>Профессия требует глубоких знаний в области материаловедения, технологии механической обработки, чтения чертежей и владения измерительным инструментом. Станочник широкого профиля — это основа любого машиностроительного производства, способный самостоятельно изготовить деталь от заготовки до готового изделия.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Станочники широкого профиля остаются одной из самых стабильно востребованных профессий в промышленности. Несмотря на автоматизацию, потребность в универсальных специалистах сохраняется на 95% машиностроительных предприятий.</p>
+                        <p>Уровень трудоустройства выпускников составляет 90-95%. Особенно ценятся специалисты, способные работать на современном оборудовании и совмещать функции токаря, фрезеровщика и шлифовщика.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">92%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">8%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4-6 лет</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">55,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием гибких производственных систем станочники широкого профиля трансформируются в операторов многофункциональных обрабатывающих центров. В ближайшие 5-7 лет ожидается рост спроса на специалистов, способных работать в условиях мелкосерийного и индивидуального производства, где требуется универсальность и гибкость.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные виды работ</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Токарная обработка</span>
+                        <span class="skill-tag">Фрезерные работы</span>
+                        <span class="skill-tag">Сверление и растачивание</span>
+                        <span class="skill-tag">Шлифование</span>
+                        <span class="skill-tag">Нарезание резьбы</span>
+                        <span class="skill-tag">Зубонарезание</span>
+                        <span class="skill-tag">Доводка и полирование</span>
+                        <span class="skill-tag">Слесарная обработка</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab2-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Станочник широкого профиля имеет многоуровневую карьерную лестницу с возможностью роста как в техническом, так и в управленческом направлении:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Станочник 2-3 разряда</h5>
+                            <p>Выполнение простых операций на одном-двух типах станков под руководством опытного наставника.</p>
+                            <div class="salary-range">30,000 - 45,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Станочник 4 разряда</h5>
+                            <p>Самостоятельная работа на 3-4 типах станков, выполнение сложных операций, чтение чертежей средней сложности.</p>
+                            <div class="salary-range">45,000 - 60,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Станочник 5-6 разряда</h5>
+                            <p>Выполнение особо сложных работ, наладка оборудования, участие в разработке технологических процессов, обучение молодых специалистов.</p>
+                            <div class="salary-range">60,000 - 85,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Мастер-станочник / Бригадир</h5>
+                            <p>Координация работы группы станочников, распределение заданий, контроль качества, решение сложных технических задач.</p>
+                            <div class="salary-range">70,000 - 100,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Технолог / Начальник участка</h5>
+                            <p>Разработка технологических процессов, планирование производства, внедрение новых методов обработки, управление персоналом.</p>
+                            <div class="salary-range">85,000 - 120,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные станочники широкого профиля могут развиваться в различных направлениях:</p>
+                    <ul>
+                        <li><strong>Инструментальщик</strong> - специализация на изготовлении и ремонте инструментов и оснастки</li>
+                        <li><strong>Оператор ЧПУ</strong> - переход на работу с numerically controlled equipment</li>
+                        <li><strong>Мастер-модельщик</strong> - создание моделей для литейного производства</li>
+                        <li><strong>Сервисный инженер</strong> - обслуживание и ремонт станочного оборудования</li>
+                        <li><strong>Преподаватель</strong> - передача опыта в учебных заведениях</li>
+                        <li><strong>Индивидуальный предприниматель</strong> - организация собственного производства</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab2-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры станочника широкого профиля необходимо среднее специальное образование:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский политехнический колледж</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Глазовский индустриальный техникум</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Профессиональные училища и лицеи машиностроительного профиля</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (10-18 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение работе на новых типах станков</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Специализированные курсы по обработке новых материалов</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение основам программирования ЧПУ</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по метрологии и контролю качества</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры станочника широкого профиля рекомендуется:</p>
+                    <ul>
+                        <li>Освоить минимум 3-4 типа станков (токарный, фрезерный, сверлильный, шлифовальный)</li>
+                        <li>Изучить свойства обрабатываемых материалов (стали, цветные металлы, сплавы, пластики)</li>
+                        <li>Освоить современные методы измерения и контроля (штангенинструмент, микрометры, оптические приборы)</li>
+                        <li>Развивать пространственное мышление и техническую интуицию</li>
+                        <li>Изучить основы технического черчения и чтения сложных чертежей</li>
+                        <li>Освоить навыки слесарной обработки и сборки</li>
+                        <li>Посещать профильные выставки и семинары для знакомства с новыми технологиями</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для поддержания профессионального уровня:</p>
+                    <ul>
+                        <li><strong>Каждые 2-3 года</strong> - повышение разряда</li>
+                        <li><strong>Ежегодно</strong> - обучение новым методам обработки</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового оборудования</li>
+                        <li><strong>Раз в 5 лет</strong> - комплексное повышение квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab2-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Токарная обработка</span>
+                            <span class="skill-tag">Фрезерование</span>
+                            <span class="skill-tag">Сверление и зенкерование</span>
+                            <span class="skill-tag">Шлифование</span>
+                            <span class="skill-tag">Нарезание резьбы</span>
+                            <span class="skill-tag">Работа с измерительным инструментом</span>
+                            <span class="skill-tag">Чтение чертежей</span>
+                            <span class="skill-tag">Наладка станков</span>
+                            <span class="skill-tag">Термическая обработка</span>
+                            <span class="skill-tag">Слесарная обработка</span>
+                            <span class="skill-tag">Основы ремонта оборудования</span>
+                            <span class="skill-tag">Контроль качества</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Технический склад ума</span>
+                            <span class="skill-tag">Пространственное мышление</span>
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Аккуратность</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Терпеливость</span>
+                            <span class="skill-tag">Усидчивость</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Инициативность</span>
+                            <span class="skill-tag">Коммуникабельность</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Работа с материалами</h4>
+                    <p>Станочник широкого профиля должен уметь работать с различными материалами:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Конструкционные стали</span>
+                        <span class="skill-tag">Инструментальные стали</span>
+                        <span class="skill-tag">Чугун</span>
+                        <span class="skill-tag">Алюминий и сплавы</span>
+                        <span class="skill-tag">Медь и сплавы</span>
+                        <span class="skill-tag">Титан и сплавы</span>
+                        <span class="skill-tag">Пластики</span>
+                        <span class="skill-tag">Композиты</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-ruler-combined"></i> Измерительный инструмент</h4>
+                    <p>Для контроля качества необходимо владение измерительным инструментом:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Штангенциркуль</span>
+                        <span class="skill-tag">Микрометр</span>
+                        <span class="skill-tag">Нутромер</span>
+                        <span class="skill-tag">Индикатор</span>
+                        <span class="skill-tag">Угломер</span>
+                        <span class="skill-tag">Резьбомер</span>
+                        <span class="skill-tag">Радиусомер</span>
+                        <span class="skill-tag">Щупы</span>
+                        <span class="skill-tag">Калибры</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Токарь</h2>
+                <p>Специалист по обработке вращающихся деталей на токарных станках</p>
+                <div>
+                    <span class="stat-badge">Высокая востребованность</span>
+                    <span class="stat-badge">Зарплата 45,000 - 85,000 руб.</span>
+                    <span class="stat-badge">Обучение 8-14 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab3-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab3-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab3-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab3-4')">Навыки</div>
+            </div>
+            
+            <div id="tab3-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Токарь — одна из старейших и самых уважаемых рабочих профессий в машиностроении. Специалист занимается обработкой вращающихся заготовок из металла, дерева, пластика и других материалов на токарных станках.</p>
+                        <p>Профессия требует глубоких знаний в области материаловедения, геометрии, физики процессов резания и точной механики. Современные токари работают как на универсальных, так и на специализированных токарных станках, включая токарно-винторезные, токарно-карусельные и токарно-револьверные.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Токарь — одна из ключевых профессий в машиностроении с постоянным высоким спросом. Даже с развитием автоматизации потребность в квалифицированных токарях сохраняется на 98% машиностроительных предприятий.</p>
+                        <p>Токари 5-6 разряда имеют практически 100% гарантию трудоустройства. Особенно ценятся специалисты, способные выполнять сложные и ответственные работы, такие как обработка жаропрочных сплавов, прецизионных деталей и крупногабаритных заготовок.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">98%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">10%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">3-5 лет</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">65,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием аддитивных технологий и гибридного производства токарная обработка трансформируется в комбинированные процессы. В ближайшие 5-7 лет ожидается рост спроса на токарей, способных работать с композитными материалами и выполнять ремонтно-восстановительные операции с использованием наплавки и лазерной обработки.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные виды токарных работ</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Наружное точение</span>
+                        <span class="skill-tag">Растачивание отверстий</span>
+                        <span class="skill-tag">Подрезка торцов</span>
+                        <span class="skill-tag">Нарезание резьбы</span>
+                        <span class="skill-tag">Вытачивание канавок</span>
+                        <span class="skill-tag">Отрезка заготовок</span>
+                        <span class="skill-tag">Обработка конических поверхностей</span>
+                        <span class="skill-tag">Фасонное точение</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab3-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Токарь имеет четкую иерархию профессионального роста, основанную на повышении разряда и расширении компетенций:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Токарь 2-3 разряда</h5>
+                            <p>Выполнение простых токарных работ, обслуживание универсальных станков, работа под руководством.</p>
+                            <div class="salary-range">35,000 - 50,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Токарь 4 разряда</h5>
+                            <p>Самостоятельное выполнение работ средней сложности, наладка станков, чтение сложных чертежей.</p>
+                            <div class="salary-range">50,000 - 70,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Токарь 5 разряда</h5>
+                            <p>Выполнение сложных и ответственных работ, обработка точных деталей, настройка специализированных станков.</p>
+                            <div class="salary-range">65,000 - 85,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Токарь 6 разряда</h5>
+                            <p>Выполнение особо сложных работ, изготовление прецизионных деталей, наладка уникального оборудования.</p>
+                            <div class="salary-range">80,000 - 110,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Мастер-токарь / Бригадир</h5>
+                            <p>Координация работы токарного участка, решение сложных технических задач, обучение молодых специалистов.</p>
+                            <div class="salary-range">90,000 - 130,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные токари могут развиваться в различных специализированных направлениях:</p>
+                    <ul>
+                        <li><strong>Токарь-расточник</strong> - специализация на обработке крупногабаритных и сложных деталей</li>
+                        <li><strong>Токарь-карусельщик</strong> - работа на токарно-карусельных станках большого диаметра</li>
+                        <li><strong>Токарь-револьверщик</strong> - специализация на серийном производстве на револьверных станках</li>
+                        <li><strong>Токарь-универсал</strong> - мастер широкого профиля, способный выполнять любые токарные работы</li>
+                        <li><strong>Наладчик токарных станков</strong> - специализация на наладке и обслуживании оборудования</li>
+                        <li><strong>Инструктор производственного обучения</strong> - подготовка новых кадров в учебных центрах</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab3-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры токаря необходимо среднее специальное образование:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский монтажный техникум</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Сарапульский колледж для индустрии питания и сервиса</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Профессиональные училища и лицеи машиностроительного профиля</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (8-14 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Специализированные курсы по обработке новых материалов</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение работе на современных токарных станках с ЧПУ</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по прецизионной обработке и метрологии</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение основам программирования для токарных операций</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры токаря рекомендуется:</p>
+                    <ul>
+                        <li>Освоить все основные виды токарной обработки (наружное, внутреннее, фасонное точение)</li>
+                        <li>Изучить свойства различных материалов и оптимальные режимы их обработки</li>
+                        <li>Освоить современные методы измерения и контроля (микрометры, индикаторы, оптические приборы)</li>
+                        <li>Развивать пространственное мышление и "чувство металла"</li>
+                        <li>Изучить основы технического черчения и чтения сложных чертежей</li>
+                        <li>Освоить навыки заточки и доводки режущего инструмента</li>
+                        <li>Изучить основы термообработки и её влияние на обрабатываемость материалов</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для профессионального роста токаря:</p>
+                    <ul>
+                        <li><strong>Каждые 2 года</strong> - повышение разряда при наличии опыта</li>
+                        <li><strong>Ежегодно</strong> - обучение новым методам обработки и оборудованию</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового оборудования и технологий</li>
+                        <li><strong>Раз в 3 года</strong> - аттестация на соответствие квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab3-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Наружное точение</span>
+                            <span class="skill-tag">Растачивание отверстий</span>
+                            <span class="skill-tag">Нарезание резьбы</span>
+                            <span class="skill-tag">Подрезка торцов</span>
+                            <span class="skill-tag">Обработка конических поверхностей</span>
+                            <span class="skill-tag">Фасонное точение</span>
+                            <span class="skill-tag">Наладка токарных станков</span>
+                            <span class="skill-tag">Заточка инструмента</span>
+                            <span class="skill-tag">Чтение чертежей</span>
+                            <span class="skill-tag">Работа с измерительным инструментом</span>
+                            <span class="skill-tag">Выбор режимов резания</span>
+                            <span class="skill-tag">Контроль качества</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Точность</span>
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Аккуратность</span>
+                            <span class="skill-tag">Пространственное мышление</span>
+                            <span class="skill-tag">Техническая интуиция</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Терпеливость</span>
+                            <span class="skill-tag">Усидчивость</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Инициативность</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Обрабатываемые материалы</h4>
+                    <p>Токарь должен уметь работать с различными материалами:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Конструкционные стали</span>
+                        <span class="skill-tag">Легированные стали</span>
+                        <span class="skill-tag">Нержавеющие стали</span>
+                        <span class="skill-tag">Чугун</span>
+                        <span class="skill-tag">Алюминиевые сплавы</span>
+                        <span class="skill-tag">Медные сплавы</span>
+                        <span class="skill-tag">Титановые сплавы</span>
+                        <span class="skill-tag">Пластики</span>
+                        <span class="skill-tag">Композиты</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-ruler-combined"></i> Специализированный инструмент</h4>
+                    <p>Для выполнения токарных работ необходимо владение специализированным инструментом:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Проходные резцы</span>
+                        <span class="skill-tag">Подрезные резцы</span>
+                        <span class="skill-tag">Расточные резцы</span>
+                        <span class="skill-tag">Резьбовые резцы</span>
+                        <span class="skill-tag">Канавочные резцы</span>
+                        <span class="skill-tag">Фасонные резцы</span>
+                        <span class="skill-tag">Резьбовые гребенки</span>
+                        <span class="skill-tag">Метчики и плашки</span>
+                        <span class="skill-tag">Центры и люнеты</span>
+                        <span class="skill-tag">Патроны и цанги</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно 4: Фрезеровщик -->
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Фрезеровщик</h2>
+                <p>Специалист по обработке материалов с помощью фрезерного станка</p>
+                <div>
+                    <span class="stat-badge">Стабильный спрос</span>
+                    <span class="stat-badge">Зарплата 40,000 - 75,000 руб.</span>
+                    <span class="stat-badge">Обучение 8-14 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab4-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab4-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab4-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab4-4')">Навыки</div>
+            </div>
+            
+            <div id="tab4-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Фрезеровщик — специалист по обработке металлов, пластмасс и других материалов с помощью фрезерного станка. Фрезерование — один из основных способов механической обработки, позволяющий создавать плоские, фасонные и винтовые поверхности, пазы, шлицы, зубья и другие сложные элементы.</p>
+                        <p>Профессия требует глубоких знаний в области геометрии, кинематики фрезерных станков, свойств обрабатываемых материалов и режущего инструмента. Современные фрезеровщики работают на универсальных, горизонтальных, вертикальных и продольно-фрезерных станках, включая обрабатывающие центры с ЧПУ.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Фрезеровщики востребованы в инструментальном производстве, приборостроении, авиационной и автомобильной промышленности. Несмотря на автоматизацию, потребность в квалифицированных фрезеровщиках сохраняется на 90% машиностроительных предприятий.</p>
+                        <p>Специалисты, владеющие работой на современных фрезерных станках с ЧПУ, имеют особые преимущества на рынке труда. Уровень трудоустройства выпускников составляет 88-92% в зависимости от региона и специализации.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">90%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">7%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">3-4 года</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">57,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием высокоскоростного фрезерования и 5-осевой обработки профессия фрезеровщика трансформируется в оператора многофункциональных обрабатывающих центров. В ближайшие 5 лет ожидается рост спроса на специалистов, способных работать с адаптивными системами управления и выполнять комплексную обработку сложных деталей за одну установку.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные виды фрезерных работ</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Фрезерование плоскостей</span>
+                        <span class="skill-tag">Обработка пазов и канавок</span>
+                        <span class="skill-tag">Нарезание зубьев</span>
+                        <span class="skill-tag">Фасонное фрезерование</span>
+                        <span class="skill-tag">Обработка винтовых поверхностей</span>
+                        <span class="skill-tag">Фрезерование криволинейных контуров</span>
+                        <span class="skill-tag">Разметка и сверление</span>
+                        <span class="skill-tag">Обработка под разными углами</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab4-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Фрезеровщик имеет многоуровневую карьерную лестницу с возможностью специализации в различных направлениях:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Фрезеровщик 2-3 разряда</h5>
+                            <p>Выполнение простых фрезерных работ, обслуживание универсальных станков, работа под руководством.</p>
+                            <div class="salary-range">35,000 - 50,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Фрезеровщик 4 разряда</h5>
+                            <p>Самостоятельное выполнение работ средней сложности, наладка станков, чтение сложных чертежей.</p>
+                            <div class="salary-range">45,000 - 60,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Фрезеровщик 5 разряда</h5>
+                            <p>Выполнение сложных фрезерных работ, обработка точных деталей, настройка специализированных станков.</p>
+                            <div class="salary-range">55,000 - 75,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Фрезеровщик 6 разряда</h5>
+                            <p>Выполнение особо сложных работ, изготовление прецизионных деталей, наладка уникального оборудования.</p>
+                            <div class="salary-range">70,000 - 95,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Мастер-фрезеровщик / Бригадир</h5>
+                            <p>Координация работы фрезерного участка, решение сложных технических задач, обучение молодых специалистов.</p>
+                            <div class="salary-range">80,000 - 110,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные фрезеровщики могут развиваться в различных специализированных направлениях:</p>
+                    <ul>
+                        <li><strong>Фрезеровщик-универсал</strong> - мастер широкого профиля, способный выполнять любые фрезерные работы</li>
+                        <li><strong>Оператор фрезерных станков с ЧПУ</strong> - специализация на работе с числовым программным управлением</li>
+                        <li><strong>Зубофрезеровщик</strong> - специализация на нарезании зубьев зубчатых колес</li>
+                        <li><strong>Фрезеровщик-инструментальщик</strong> - изготовление и ремонт режущего инструмента и оснастки</li>
+                        <li><strong>Наладчик фрезерных станков</strong> - специализация на наладке и обслуживании оборудования</li>
+                        <li><strong>Технолог фрезерной обработки</strong> - разработка технологических процессов фрезерования</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab4-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры фрезеровщика необходимо среднее специальное образование:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский техникум радиоэлектроники</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Воткинский лицей</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Профессионально-технические училища с техническим уклоном</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (8-14 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Специализированные курсы по зубофрезерованию</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение работе на современных фрезерных станках с ЧПУ</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по высокоскоростному фрезерованию</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение основам программирования для фрезерных операций</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры фрезеровщика рекомендуется:</p>
+                    <ul>
+                        <li>Освоить все основные виды фрезерной обработки (плоскостное, фасонное, зубофрезерование)</li>
+                        <li>Изучить кинематику различных типов фрезерных станков и их особенности</li>
+                        <li>Освоить современные методы измерения и контроля фрезерованных поверхностей</li>
+                        <li>Развивать пространственное мышление и умение читать сложные чертежи</li>
+                        <li>Изучить свойства различных фрез и оптимальные режимы их применения</li>
+                        <li>Освоить навыки заточки и переточки фрез</li>
+                        <li>Изучить основы конструирования и расчета фрезерных приспособлений</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для профессионального роста фрезеровщика:</p>
+                    <ul>
+                        <li><strong>Каждые 2 года</strong> - повышение разряда при наличии опыта</li>
+                        <li><strong>Ежегодно</strong> - обучение новым методам обработки и оборудованию</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового оборудования и технологий</li>
+                        <li><strong>Раз в 3 года</strong> - аттестация на соответствие квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab4-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Фрезерование плоскостей</span>
+                            <span class="skill-tag">Обработка пазов и канавок</span>
+                            <span class="skill-tag">Нарезание зубьев</span>
+                            <span class="skill-tag">Фасонное фрезерование</span>
+                            <span class="skill-tag">Обработка под углами</span>
+                            <span class="skill-tag">Наладка фрезерных станков</span>
+                            <span class="skill-tag">Заточка фрез</span>
+                            <span class="skill-tag">Чтение чертежей</span>
+                            <span class="skill-tag">Работа с измерительным инструментом</span>
+                            <span class="skill-tag">Выбор режимов резания</span>
+                            <span class="skill-tag">Контроль качества</span>
+                            <span class="skill-tag">Расчет настроек станка</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Точность</span>
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Аккуратность</span>
+                            <span class="skill-tag">Пространственное мышление</span>
+                            <span class="skill-tag">Техническая интуиция</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Терпеливость</span>
+                            <span class="skill-tag">Усидчивость</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Инициативность</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Типы фрез и оснастки</h4>
+                    <p>Фрезеровщик должен уметь работать с различными типами фрез и оснастки:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Цилиндрические фрезы</span>
+                        <span class="skill-tag">Торцевые фрезы</span>
+                        <span class="skill-tag">Концевые фрезы</span>
+                        <span class="skill-tag">Угловые фрезы</span>
+                        <span class="skill-tag">Фасонные фрезы</span>
+                        <span class="skill-tag">Модульные фрезы</span>
+                        <span class="skill-tag">Червячные фрезы</span>
+                        <span class="skill-tag">Дисковые фрезы</span>
+                        <span class="skill-tag">Фрезы для Т-образных пазов</span>
+                        <span class="skill-tag">Сборные фрезы</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-industry"></i> Специализированное оборудование</h4>
+                    <p>Для выполнения фрезерных работ необходимо знание специализированного оборудования:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Горизонтально-фрезерные станки</span>
+                        <span class="skill-tag">Вертикально-фрезерные станки</span>
+                        <span class="skill-tag">Продольно-фрезерные станки</span>
+                        <span class="skill-tag">Универсально-фрезерные станки</span>
+                        <span class="skill-tag">Зубофрезерные станки</span>
+                        <span class="skill-tag">Копировально-фрезерные станки</span>
+                        <span class="skill-tag">Фрезерные станки с ЧПУ</span>
+                        <span class="skill-tag">Обрабатывающие центры</span>
+                        <span class="skill-tag">Делительные головки</span>
+                        <span class="skill-tag">Поворотные столы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Шлифовщик</h2>
+                <p>Специалист по финишной обработке поверхностей с высокой точностью</p>
+                <div>
+                    <span class="stat-badge">Высокая точность</span>
+                    <span class="stat-badge">Зарплата 45,000 - 80,000 руб.</span>
+                    <span class="stat-badge">Обучение 6-12 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab5-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab5-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab5-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab5-4')">Навыки</div>
+            </div>
+            
+            <div id="tab5-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Шлифовщик — специалист по финишной обработке поверхностей деталей до требуемой шероховатости и точности. Шлифование является заключительной операцией в технологическом процессе изготовления деталей, обеспечивающей высокое качество поверхности и точность размеров.</p>
+                        <p>Профессия требует исключительной точности, внимания к деталям и глубоких знаний в области абразивной обработки, материаловедения и метрологии. Современные шлифовщики работают на плоскошлифовальных, круглошлифовальных, бесцентрово-шлифовальных и специализированных шлифовальных станках.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Шлифовщики высокой квалификации особенно востребованы на предприятиях точного машиностроения, инструментального производства, приборостроения и авиакосмической промышленности. Уровень трудоустройства выпускников составляет 85-90%.</p>
+                        <p>Профессия требует высокой точности и внимательности, что делает опытных специалистов особенно ценными. Средняя заработная плата по России составляет 45,000 - 80,000 рублей в зависимости от квалификации и специализации.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">88%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">6%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4-5 лет</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">62,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием прецизионного машиностроения и нанотехнологий профессия шлифовщика трансформируется в оператора высокоточных отделочных операций. В ближайшие 5-7 лет ожидается рост спроса на специалистов, способных работать с ультрапрецизионным оборудованием и выполнять обработку с нанометровой точностью.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные виды шлифовальных работ</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Плоское шлифование</span>
+                        <span class="skill-tag">Круглое наружное шлифование</span>
+                        <span class="skill-tag">Круглое внутреннее шлифование</span>
+                        <span class="skill-tag">Бесцентровое шлифование</span>
+                        <span class="skill-tag">Профильное шлифование</span>
+                        <span class="skill-tag">Шлифование зубчатых колес</span>
+                        <span class="skill-tag">Хонингование</span>
+                        <span class="skill-tag">Суперфиниширование</span>
+                        <span class="skill-tag">Полирование</span>
+                        <span class="skill-tag">Притирка</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab5-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Шлифовщик имеет многоуровневую карьерную лестницу с возможностью специализации в различных направлениях точной обработки:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Шлифовщик 2-3 разряда</h5>
+                            <p>Выполнение простых шлифовальных работ, обслуживание универсальных станков, работа под руководством.</p>
+                            <div class="salary-range">35,000 - 50,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Шлифовщик 4 разряда</h5>
+                            <p>Самостоятельное выполнение работ средней сложности, наладка станков, обеспечение точности обработки.</p>
+                            <div class="salary-range">45,000 - 65,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Шлифовщик 5 разряда</h5>
+                            <p>Выполнение сложных шлифовальных работ, обработка прецизионных деталей, настройка специализированных станков.</p>
+                            <div class="salary-range">60,000 - 80,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Шлифовщик 6 разряда</h5>
+                            <p>Выполнение особо сложных работ, изготовление деталей с микронной точностью, наладка уникального оборудования.</p>
+                            <div class="salary-range">75,000 - 100,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Мастер-шлифовщик / Технолог</h5>
+                            <p>Координация работы шлифовального участка, разработка технологических процессов, решение сложных технических задач.</p>
+                            <div class="salary-range">85,000 - 120,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные шлифовщики могут развиваться в различных специализированных направлениях:</p>
+                    <ul>
+                        <li><strong>Оператор координатно-шлифовальных станков</strong> - специализация на обработке сложнопрофильных деталей</li>
+                        <li><strong>Хонинговальщик</strong> - специализация на отделке отверстий с высокой точностью</li>
+                        <li><strong>Полировщик</strong> - специализация на создании зеркальных поверхностей</li>
+                        <li><strong>Заточник режущего инструмента</strong> - специализация на заточке и переточке инструмента</li>
+                        <li><strong>Оператор лазерной обработки</strong> - специализация на лазерной отделке поверхностей</li>
+                        <li><strong>Специалист по контролю качества</span></strong> - специализация на метрологии и контроле точности</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab5-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры шлифовщика необходимо среднее специальное образование:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский промышленно-экономический колледж</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Можгинский педагогический колледж им. Т.К. Борисова</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Специализированные учебные центры при заводах</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (6-12 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Специализированные курсы по профильному шлифованию</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение работе на координатно-шлифовальных станках</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по ультрапрецизионной обработке</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение современным методам контроля качества</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры шлифовщика рекомендуется:</p>
+                    <ul>
+                        <li>Освоить все основные виды шлифовальной обработки (плоское, круглое, бесцентровое, профильное)</li>
+                        <li>Изучить свойства абразивных материалов и оптимальные режимы их применения</li>
+                        <li>Освоить современные методы измерения и контроля (профилометры, интерферометры, микроскопы)</li>
+                        <li>Развивать исключительную точность и внимание к деталям</li>
+                        <li>Изучить основы трибологии и физики процессов шлифования</li>
+                        <li>Освоить навыки правки и балансировки шлифовальных кругов</li>
+                        <li>Изучить влияние отделочных операций на эксплуатационные свойства деталей</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для профессионального роста шлифовщика:</p>
+                    <ul>
+                        <li><strong>Каждые 2 года</strong> - повышение разряда при наличии опыта</li>
+                        <li><strong>Ежегодно</strong> - обучение новым методам обработки и оборудованию</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового оборудования и технологий</li>
+                        <li><strong>Раз в 3 года</strong> - аттестация на соответствие квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab5-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Плоское шлифование</span>
+                            <span class="skill-tag">Круглое шлифование</span>
+                            <span class="skill-tag">Бесцентровое шлифование</span>
+                            <span class="skill-tag">Профильное шлифование</span>
+                            <span class="skill-tag">Внутреннее шлифование</span>
+                            <span class="skill-tag">Наладка шлифовальных станков</span>
+                            <span class="skill-tag">Правка шлифовальных кругов</span>
+                            <span class="skill-tag">Выбор абразивного инструмента</span>
+                            <span class="skill-tag">Контроль шероховатости</span>
+                            <span class="skill-tag">Работа с прецизионным измерительным инструментом</span>
+                            <span class="skill-tag">Определение режимов шлифования</span>
+                            <span class="skill-tag">Контроль качества</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Исключительная точность</span>
+                            <span class="skill-tag">Внимание к деталям</span>
+                            <span class="skill-tag">Аккуратность</span>
+                            <span class="skill-tag">Терпеливость</span>
+                            <span class="skill-tag">Усидчивость</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Техническое мышление</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Дисциплинированность</span>
+                            <span class="skill-tag">Чистоплотность</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Абразивные материалы и инструменты</h4>
+                    <p>Шлифовщик должен уметь работать с различными абразивными материалами и инструментами:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Электрокорунд</span>
+                        <span class="skill-tag">Карбид кремния</span>
+                        <span class="skill-tag">Кубчический нитрид бора</span>
+                        <span class="skill-tag">Алмазные круги</span>
+                        <span class="skill-tag">Шлифовальные ленты</span>
+                        <span class="skill-tag">Шлифовальные головки</span>
+                        <span class="skill-tag">Абразивные пасты</span>
+                        <span class="skill-tag">Полировальные составы</span>
+                        <span class="skill-tag">Притирочные пасты</span>
+                        <span class="skill-tag">СОЖ для шлифования</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-ruler-combined"></i> Контрольно-измерительные приборы</h4>
+                    <p>Для контроля качества необходимо владение специализированными приборами:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Профилометры</span>
+                        <span class="skill-tag">Интерферометры</span>
+                        <span class="skill-tag">Микроскопы</span>
+                        <span class="skill-tag">Оптические компараторы</span>
+                        <span class="skill-tag">Пневматические измерительные приборы</span>
+                        <span class="skill-tag">Лазерные измерительные системы</span>
+                        <span class="skill-tag">Калибры</span>
+                        <span class="skill-tag">Эталоны шероховатости</span>
+                        <span class="skill-tag">Щупы</span>
+                        <span class="skill-tag">Индикаторы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal6')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Энергетик</h2>
+                <p>Специалист по эксплуатации и обслуживанию энергетического оборудования</p>
+                <div>
+                    <span class="stat-badge">Критически важная</span>
+                    <span class="stat-badge">Зарплата 50,000 - 90,000 руб.</span>
+                    <span class="stat-badge">Обучение 12-24 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab6-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab6-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab6-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab6-4')">Навыки</div>
+            </div>
+            
+            <div id="tab6-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Энергетик — специалист по эксплуатации, обслуживанию и ремонту энергетического оборудования. Энергетики обеспечивают бесперебойное энергоснабжение промышленных предприятий, жилых комплексов и социальных объектов, играя ключевую роль в современной инфраструктуре.</p>
+                        <p>Профессия требует глубоких знаний в области электротехники, теплотехники, гидравлики, автоматики и безопасности. Современные энергетики работают с электрическими сетями, трансформаторными подстанциями, котельными, системами вентиляции и кондиционирования, а также системами автоматического управления.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Энергетики относятся к критически важным специалистам для любой отрасли промышленности и коммунального хозяйства. Уровень трудоустройства выпускников составляет 95-98% благодаря постоянной потребности в обеспечении энергобезопасности.</p>
+                        <p>С развитием альтернативной энергетики появляются новые перспективные направления для специалистов этой профессии. Средняя заработная плата по России составляет 50,000 - 90,000 рублей в зависимости от квалификации и места работы.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">96%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">12%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">4-6 лет</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">70,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием "умных сетей" (Smart Grid) и распределенной энергетики профессия энергетика трансформируется в специалиста по интеллектуальным энергосистемам. В ближайшие 5-10 лет ожидается рост спроса на специалистов, способных работать с системами накопления энергии, микрогридами и возобновляемыми источниками энергии.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные направления деятельности</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Эксплуатация электрооборудования</span>
+                        <span class="skill-tag">Обслуживание трансформаторных подстанций</span>
+                        <span class="skill-tag">Эксплуатация котельного оборудования</span>
+                        <span class="skill-tag">Обслуживание систем вентиляции</span>
+                        <span class="skill-tag">Ремонт энергетического оборудования</span>
+                        <span class="skill-tag">Пуско-наладочные работы</span>
+                        <span class="skill-tag">Техническое обслуживание сетей</span>
+                        <span class="skill-tag">Энергетический аудит</span>
+                        <span class="skill-tag">Разработка мероприятий по энергосбережению</span>
+                        <span class="skill-tag">Составление технической документации</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab6-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Энергетик имеет многоуровневую карьерную лестницу с возможностью роста как в техническом, так и в управленческом направлении:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Электромонтер / Слесарь-ремонтник</h5>
+                            <p>Выполнение простых работ по обслуживанию оборудования, дежурство, работа под руководством.</p>
+                            <div class="salary-range">35,000 - 50,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Энергетик 4-5 разряда</h5>
+                            <p>Самостоятельное обслуживание оборудования, проведение плановых ремонтов, участие в пусконаладочных работах.</p>
+                            <div class="salary-range">50,000 - 70,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Старший энергетик / Мастер</h5>
+                            <p>Координация работы смены, проведение сложных ремонтов, разработка графиков ППР, обучение персонала.</p>
+                            <div class="salary-range">65,000 - 85,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Инженер-энергетик</h5>
+                            <p>Разработка технической документации, планирование энергоснабжения, внедрение новых технологий, энергоаудит.</p>
+                            <div class="salary-range">75,000 - 100,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Начальник энергетического участка / Главный энергетик</h5>
+                            <p>Управление энергетическим хозяйством предприятия, стратегическое планирование, бюджетирование, руководство персоналом.</p>
+                            <div class="salary-range">90,000 - 140,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные энергетики могут развиваться в различных специализированных направлениях:</p>
+                    <ul>
+                        <li><strong>Специалист по возобновляемой энергетике</strong> - работа с солнечными, ветровыми, геотермальными установками</li>
+                        <li><strong>Энергоаудитор</strong> - проведение энергетических обследований и разработка мероприятий по энергосбережению</li>
+                        <li><strong>Специалист по Smart Grid</strong> - работа с интеллектуальными энергетическими системами</li>
+                        <li><strong>Проектировщик энергетических систем</strong> - разработка проектов энергоснабжения объектов</li>
+                        <li><strong>Сервисный инженер</strong> - обслуживание энергетического оборудования у заказчиков</li>
+                        <li><strong>Специалист по электробезопасности</strong> - обеспечение безопасности электроустановок</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab6-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры энергетика необходимо среднее специальное или высшее образование:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Эксплуатация электрооборудования"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский государственный технический университет им. М.Т. Калашникова</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Глазовский инженерно-экономический институт</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Энергетические колледжи и техникумы</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (12-24 месяца)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение по электробезопасности (ежегодная аттестация)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Специализированные курсы по новому оборудованию</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение системам автоматизированного управления</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по энергосберегающим технологиям</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры энергетика рекомендуется:</p>
+                    <ul>
+                        <li>Освоить основы электротехники, теплотехники, гидравлики и автоматики</li>
+                        <li>Изучить правила технической эксплуатации электроустановок и правила безопасности</li>
+                        <li>Освоить современные системы диагностики и мониторинга оборудования</li>
+                        <li>Развивать аналитическое мышление и умение принимать решения в аварийных ситуациях</li>
+                        <li>Изучить основы проектирования энергетических систем</li>
+                        <li>Освоить навыки работы с технической документацией и нормативной базой</li>
+                        <li>Изучить современные энергосберегающие технологии и системы учета энергии</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для профессионального роста энергетика:</p>
+                    <ul>
+                        <li><strong>Ежегодно</strong> - обучение по электробезопасности и охране труда</li>
+                        <li><strong>Каждые 3 года</strong> - повышение квалификации по основной специальности</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового оборудования и технологий</li>
+                        <li><strong>Раз в 5 лет</strong> - комплексное повышение квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab6-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Эксплуатация электрооборудования</span>
+                            <span class="skill-tag">Обслуживание трансформаторов</span>
+                            <span class="skill-tag">Ремонт электродвигателей</span>
+                            <span class="skill-tag">Эксплуатация котельного оборудования</span>
+                            <span class="skill-tag">Обслуживание систем вентиляции</span>
+                            <span class="skill-tag">Пуско-наладочные работы</span>
+                            <span class="skill-tag">Диагностика оборудования</span>
+                            <span class="skill-tag">Чтение электросхем</span>
+                            <span class="skill-tag">Составление технической документации</span>
+                            <span class="skill-tag">Проведение измерений и испытаний</span>
+                            <span class="skill-tag">Разработка графиков ППР</span>
+                            <span class="skill-tag">Контроль качества работ</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Аналитическое мышление</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Исполнительность</span>
+                            <span class="skill-tag">Технический склад ума</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Коммуникабельность</span>
+                            <span class="skill-tag">Лидерские качества</span>
+                            <span class="skill-tag">Организаторские способности</span>
+                            <span class="skill-tag">Дисциплинированность</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Оборудование и системы</h4>
+                    <p>Энергетик должен уметь работать с различным оборудованием и системами:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Трансформаторные подстанции</span>
+                        <span class="skill-tag">Распределительные устройства</span>
+                        <span class="skill-tag">Электродвигатели и генераторы</span>
+                        <span class="skill-tag">Котельные установки</span>
+                        <span class="skill-tag">Системы вентиляции и кондиционирования</span>
+                        <span class="skill-tag">Насосные станции</span>
+                        <span class="skill-tag">Системы автоматического управления</span>
+                        <span class="skill-tag">Системы защиты и автоматики</span>
+                        <span class="skill-tag">Системы учета энергии</span>
+                        <span class="skill-tag">Системы бесперебойного питания</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-ruler-combined"></i> Нормативная документация</h4>
+                    <p>Энергетик должен знать и уметь применять нормативную документацию:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Правила устройства электроустановок</span>
+                        <span class="skill-tag">Правила технической эксплуатации</span>
+                        <span class="skill-tag">Правила безопасности</span>
+                        <span class="skill-tag">Строительные нормы и правила</span>
+                        <span class="skill-tag">Государственные стандарты</span>
+                        <span class="skill-tag">Отраслевые стандарты</span>
+                        <span class="skill-tag">Инструкции по эксплуатации</span>
+                        <span class="skill-tag">Технические регламенты</span>
+                        <span class="skill-tag">Локальные нормативные акты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal7" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal7')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Инженер-технолог</h2>
+                <p>Специалист по разработке и внедрению технологических процессов производства</p>
+                <div>
+                    <span class="stat-badge">Высокая зарплата</span>
+                    <span class="stat-badge">Зарплата 60,000 - 120,000 руб.</span>
+                    <span class="stat-badge">Обучение 24-36 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab7-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab7-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab7-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab7-4')">Навыки</div>
+            </div>
+            
+            <div id="tab7-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Инженер-технолог — ключевой специалист производственного процесса, отвечающий за разработку, внедрение и совершенствование технологических процессов изготовления продукции. От его работы зависит эффективность производства, качество продукции и себестоимость.</p>
+                        <p>Профессия требует глубоких знаний в области материаловедения, технологии машиностроения, стандартизации, метрологии и экономики производства. Современные инженеры-технологи работают с CAD/CAM/CAE системами, участвуют в цифровизации производства и внедрении Industry 4.0.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Инженеры-технологи входят в число самых востребованных специалистов промышленных предприятий. Уровень трудоустройства выпускников технических вузов составляет 92-96%.</p>
+                        <p>Особенно ценятся специалисты, владеющие современными системами автоматизированного проектирования и способные оптимизировать производственные процессы. Средняя заработная плата по России составляет 60,000 - 120,000 рублей.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">94%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">18%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">3-5 лет</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">85,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием цифровых двойников и киберфизических систем профессия инженера-технолога трансформируется в специалиста по виртуальному проектированию производственных процессов. В ближайшие 5-7 лет ожидается рост спроса на технологиов, способных работать с большими данными, искусственным интеллектом и системами предиктивной аналитики.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные направления деятельности</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Разработка технологических процессов</span>
+                        <span class="skill-tag">Проектирование оснастки и инструмента</span>
+                        <span class="skill-tag">Нормирование операций</span>
+                        <span class="skill-tag">Контроль качества</span>
+                        <span class="skill-tag">Внедрение новых технологий</span>
+                        <span class="skill-tag">Оптимизация производственных процессов</span>
+                        <span class="skill-tag">Подготовка технической документации</span>
+                        <span class="skill-tag">Обучение персонала</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab7-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Инженер-технолог имеет широкие возможности для карьерного роста как в техническом, так и в управленческом направлении:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Техник-технолог</h5>
+                            <p>Выполнение простых технологических расчетов, работа с документацией под руководством опытного технолога.</p>
+                            <div class="salary-range">40,000 - 55,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Инженер-технолог</h5>
+                            <p>Самостоятельная разработка технологических процессов, ведение участка, решение технических задач.</p>
+                            <div class="salary-range">60,000 - 90,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Ведущий инженер-технолог</h5>
+                            <p>Координация работы группы технологов, разработка сложных технологических процессов, внедрение инноваций.</p>
+                            <div class="salary-range">80,000 - 120,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Начальник технологического бюро</h5>
+                            <p>Управление технологической службой предприятия, стратегическое планирование, бюджетирование.</p>
+                            <div class="salary-range">100,000 - 150,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Главный технолог / Технический директор</h5>
+                            <p>Руководство всей технической политикой предприятия, внедрение передовых технологий, управление инновациями.</p>
+                            <div class="salary-range">130,000 - 250,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные инженеры-технологи могут развиваться в различных специализированных направлениях:</p>
+                    <ul>
+                        <li><strong>Специалист по качеству</strong> - разработка и внедрение систем менеджмента качества</li>
+                        <li><strong>Проектировщик технологического оборудования</strong> - создание нового оборудования и оснастки</li>
+                        <li><strong>ERP-консультант</strong> - внедрение и сопровождение систем управления предприятием</li>
+                        <li><strong>Технический писатель</strong> - создание технической документации и инструкций</li>
+                        <li><strong>Преподаватель</strong> - подготовка новых кадров в учебных заведениях</li>
+                        <li><strong>Технический эксперт</strong> - консалтинг предприятий по технологическим вопросам</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab7-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры инженера-технолога необходимо высшее образование:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский государственный технический университет им. М.Т. Калашникова</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Удмуртский государственный университет</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Технические вузы России по направлению "Машиностроение"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Программы переподготовки (24-36 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Сертификация по системам CAD/CAM/CAE</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение системам управления предприятием (ERP)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по бережливому производству и оптимизации процессов</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение системам менеджмента качества (ISO 9001)</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры инженера-технолога рекомендуется:</p>
+                    <ul>
+                        <li>Освоить минимум одну систему CAD (Компас, SolidWorks) и одну систему CAM (PowerMill, NX)</li>
+                        <li>Изучить современные технологии обработки материалов (аддитивные, гибридные, высокоскоростные)</li>
+                        <li>Освоить методы оптимизации производственных процессов (бережливое производство, TOC, 6 сигм)</li>
+                        <li>Развивать системное мышление и умение работать в междисциплинарных командах</li>
+                        <li>Изучить экономику производства и методы расчета себестоимости</li>
+                        <li>Освоить навыки проектного управления и работы в команде</li>
+                        <li>Изучить английский язык на техническом уровне для работы с международными стандартами</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для профессионального роста:</p>
+                    <ul>
+                        <li><strong>Ежегодно</strong> - обучение новым технологиям и оборудованию</li>
+                        <li><strong>Каждые 3 года</strong> - повышение квалификации по основной специальности</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового программного обеспечения</li>
+                        <li><strong>Раз в 5 лет</strong> - комплексное повышение квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab7-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Разработка технологических процессов</span>
+                            <span class="skill-tag">Проектирование оснастки</span>
+                            <span class="skill-tag">Нормирование операций</span>
+                            <span class="skill-tag">Чтение чертежей</span>
+                            <span class="skill-tag">CAD/CAM системы</span>
+                            <span class="skill-tag">Метрология и контроль качества</span>
+                            <span class="skill-tag">Материаловедение</span>
+                            <span class="skill-tag">Технология машиностроения</span>
+                            <span class="skill-tag">Прочностные расчеты</span>
+                            <span class="skill-tag">Стандартизация</span>
+                            <span class="skill-tag">ERP системы</span>
+                            <span class="skill-tag">Техническое документирование</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Аналитическое мышление</span>
+                            <span class="skill-tag">Системный подход</span>
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Организованность</span>
+                            <span class="skill-tag">Коммуникабельность</span>
+                            <span class="skill-tag">Лидерские качества</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Инициативность</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Креативность</span>
+                            <span class="skill-tag">Технический склад ума</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Программное обеспечение</h4>
+                    <p>Инженер-технолог должен владеть специализированным ПО:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Компас-3D</span>
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">Siemens NX</span>
+                        <span class="skill-tag">PowerMill</span>
+                        <span class="skill-tag">T-FLEX</span>
+                        <span class="skill-tag">ANSYS</span>
+                        <span class="skill-tag">Microsoft Project</span>
+                        <span class="skill-tag">1С:ERP</span>
+                        <span class="skill-tag">SAP</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-book"></i> Нормативная база</h4>
+                    <p>Инженер-технолог должен знать нормативную документацию:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">ЕСТД</span>
+                        <span class="skill-tag">ЕСКД</span>
+                        <span class="skill-tag">ГОСТы</span>
+                        <span class="skill-tag">ОСТы</span>
+                        <span class="skill-tag">ТУ</span>
+                        <span class="skill-tag">Стандарты предприятия</span>
+                        <span class="skill-tag">Технические регламенты</span>
+                        <span class="skill-tag">Системы менеджмента качества</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal8')">&times;</span>
+            
+            <div class="modal-header">
+                <h2>Оператор лазерной резки</h2>
+                <p>Специалист по работе на современном лазерном оборудовании для точной резки материалов</p>
+                <div>
+                    <span class="stat-badge">Перспективная</span>
+                    <span class="stat-badge">Зарплата 45,000 - 85,000 руб.</span>
+                    <span class="stat-badge">Обучение 6-10 месяцев</span>
+                </div>
+            </div>
+            
+            <div class="modal-tabs">
+                <div class="modal-tab active" onclick="openTab(event, 'tab8-1')">Описание</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab8-2')">Карьера</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab8-3')">Обучение</div>
+                <div class="modal-tab" onclick="openTab(event, 'tab8-4')">Навыки</div>
+            </div>
+            
+            <div id="tab8-1" class="modal-tab-content active">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> О профессии</h4>
+                        <p>Оператор лазерной резки — современная профессия, связанная с работой на высокотехнологичном оборудовании для точной резки различных материалов лазерным лучом. Лазерная резка позволяет создавать детали сложной геометрии с высокой точностью и минимальными допусками.</p>
+                        <p>Профессия требует знаний в области лазерных технологий, оптики, материаловедения и программирования. Современные операторы лазерной резки работают с CO2-лазерами, волоконными лазерами, системами ЧПУ и CAD/CAM программами.</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-chart-line"></i> Востребованность</h4>
+                        <p>Операторы лазерной резки относятся к перспективным профессиям с растущим спросом. Уровень трудоустройства выпускников составляет 90-95% благодаря активному внедрению лазерных технологий в промышленность.</p>
+                        <p>Особенно ценятся специалисты, способные работать с различными материалами и сложными программами резки. Средняя заработная плата по России составляет 45,000 - 85,000 рублей.</p>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">92%</div>
+                        <div>Трудоустройство</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">22%</div>
+                        <div>Рост спроса в год</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">2-3 года</div>
+                        <div>Опыт для высокой зарплаты</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">65,000₽</div>
+                        <div>Средняя зарплата</div>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-lightbulb"></i> Перспективы развития</h4>
+                    <p>С развитием гибридных технологий и многофункциональных лазерных комплексов профессия оператора лазерной резки трансформируется в специалиста по лазерной обработке материалов. В ближайшие 5 лет ожидается рост спроса на операторов, способных работать с 3D-лазерной резкой, лазерной сваркой и лазерной гравировкой.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tasks"></i> Основные направления деятельности</h4>
+                    <div class="skills-list">
+                        <span class="skill-tag">Настройка лазерного оборудования</span>
+                        <span class="skill-tag">Программирование траекторий резки</span>
+                        <span class="skill-tag">Подбор режимов резки для разных материалов</span>
+                        <span class="skill-tag">Контроль качества реза</span>
+                        <span class="skill-tag">Обслуживание оптической системы</span>
+                        <span class="skill-tag">Работа с CAD/CAM системами</span>
+                        <span class="skill-tag">Оптимизация раскроя материала</span>
+                        <span class="skill-tag">Техническое обслуживание оборудования</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="tab8-2" class="modal-tab-content">
+                <h3>Карьерный рост</h3>
+                <p>Оператор лазерной резки имеет четкую карьерную траекторию с возможностью роста в техническом направлении:</p>
+                
+                <div class="career-path">
+                    <div class="career-step">
+                        <div class="career-step-number">1</div>
+                        <div class="career-step-content">
+                            <h5>Оператор лазерной резки 2-3 разряда</h5>
+                            <p>Работа по готовым программам, выполнение стандартных операций, обслуживание оборудования под руководством.</p>
+                            <div class="salary-range">35,000 - 50,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">2</div>
+                        <div class="career-step-content">
+                            <h5>Оператор-наладчик лазерной резки 4 разряда</h5>
+                            <p>Самостоятельная наладка оборудования, написание программ, работа со сложными материалами.</p>
+                            <div class="salary-range">45,000 - 65,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">3</div>
+                        <div class="career-step-content">
+                            <h5>Оператор-программист лазерной резки 5 разряда</h5>
+                            <p>Разработка сложных программ резки, оптимизация процессов, обучение персонала.</p>
+                            <div class="salary-range">60,000 - 85,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">4</div>
+                        <div class="career-step-content">
+                            <h5>Специалист по лазерным технологиям</h5>
+                            <p>Внедрение новых лазерных технологий, решение сложных технических задач, сервисное обслуживание.</p>
+                            <div class="salary-range">75,000 - 110,000 руб.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="career-step">
+                        <div class="career-step-number">5</div>
+                        <div class="career-step-content">
+                            <h5>Инженер-технолог лазерной обработки</h5>
+                            <p>Разработка технологических процессов лазерной обработки, управление производственным участком.</p>
+                            <div class="salary-range">90,000 - 130,000 руб.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-rocket"></i> Альтернативные направления развития</h4>
+                    <p>Опытные операторы лазерной резки могут развиваться в смежных областях:</p>
+                    <ul>
+                        <li><strong>Специалист по плазменной резке</strong> - работа с оборудованием плазменной резки</li>
+                        <li><strong>Оператор гидроабразивной резки</strong> - специализация на резке водой под высоким давлением</li>
+                        <li><strong>Сервисный инженер</strong> - наладка и обслуживание лазерного оборудования</li>
+                        <li><strong>Технолог-программист</strong> - разработка управляющих программ для различных типов резки</li>
+                        <li><strong>Менеджер по продажам</strong> - консультация и продажа лазерного оборудования</li>
+                        <li><strong>Преподаватель</strong> - обучение новых специалистов в учебных центрах</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab8-3" class="modal-tab-content">
+                <h3>Обучение и развитие</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-graduation-cap"></i> Базовое образование</h4>
+                        <p>Для начала карьеры оператора лазерной резки достаточно среднего специального образования:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>СТМиИТ (Сарапул) - программа "Технология машиностроения"</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Ижевский промышленно-экономический колледж</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Профессиональные училища с техническим уклоном</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Специализированные учебные центры при заводах</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-check"></i></div>
+                                <div>Курсы профессиональной переподготовки (6-10 месяцев)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-book-open"></i> Дополнительное образование</h4>
+                        <p>Для карьерного роста рекомендуется дополнительное обучение:</p>
+                        <ul class="education-list">
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы повышения квалификации (ежегодно)</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Специализированные курсы по различным типам лазеров</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение работе с системами CAD/CAM для лазерной резки</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Курсы по оптике и лазерной технике</div>
+                            </li>
+                            <li>
+                                <div class="education-icon"><i class="fas fa-certificate"></i></div>
+                                <div>Обучение обслуживанию лазерного оборудования</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight">
+                    <h4><i class="fas fa-star"></i> Рекомендации по развитию</h4>
+                    <p>Для успешной карьеры оператора лазерной резки рекомендуется:</p>
+                    <ul>
+                        <li>Освоить основы лазерной физики и принципы работы лазерного оборудования</li>
+                        <li>Изучить свойства различных материалов и оптимальные режимы их резки</li>
+                        <li>Освоить современные системы программирования лазерных установок</li>
+                        <li>Развивать пространственное мышление и умение читать сложные чертежи</li>
+                        <li>Изучить основы оптики и обслуживания оптических систем</li>
+                        <li>Освоить навыки работы с измерительным инструментом и контроля качества</li>
+                        <li>Изучить правила безопасности при работе с лазерным оборудованием</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-award"></i> Повышение квалификации</h4>
+                    <p>Регулярное повышение квалификации необходимо для профессионального роста:</p>
+                    <ul>
+                        <li><strong>Каждые 2 года</strong> - повышение разряда при наличии опыта</li>
+                        <li><strong>Ежегодно</strong> - обучение новым технологиям и оборудованию</li>
+                        <li><strong>По мере необходимости</strong> - освоение нового программного обеспечения</li>
+                        <li><strong>Раз в 3 года</strong> - аттестация на соответствие квалификации</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="tab8-4" class="modal-tab-content">
+                <h3>Ключевые навыки и компетенции</h3>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4><i class="fas fa-cog"></i> Технические навыки</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Настройка лазерного оборудования</span>
+                            <span class="skill-tag">Программирование траекторий резки</span>
+                            <span class="skill-tag">Работа с CAD/CAM системами</span>
+                            <span class="skill-tag">Подбор режимов резки</span>
+                            <span class="skill-tag">Обслуживание оптической системы</span>
+                            <span class="skill-tag">Контроль качества реза</span>
+                            <span class="skill-tag">Чтение чертежей</span>
+                            <span class="skill-tag">Работа с измерительным инструментом</span>
+                            <span class="skill-tag">Оптимизация раскроя материала</span>
+                            <span class="skill-tag">Диагностика неисправностей</span>
+                            <span class="skill-tag">Техническое обслуживание</span>
+                            <span class="skill-tag">Ведение документации</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-user"></i> Личностные качества</h4>
+                        <div class="skills-list">
+                            <span class="skill-tag">Внимательность</span>
+                            <span class="skill-tag">Аккуратность</span>
+                            <span class="skill-tag">Ответственность</span>
+                            <span class="skill-tag">Технический склад ума</span>
+                            <span class="skill-tag">Пространственное мышление</span>
+                            <span class="skill-tag">Обучаемость</span>
+                            <span class="skill-tag">Стрессоустойчивость</span>
+                            <span class="skill-tag">Инициативность</span>
+                            <span class="skill-tag">Дисциплинированность</span>
+                            <span class="skill-tag">Точность</span>
+                            <span class="skill-tag">Усидчивость</span>
+                            <span class="skill-tag">Коммуникабельность</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-tools"></i> Обрабатываемые материалы</h4>
+                    <p>Оператор лазерной резки должен уметь работать с различными материалами:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">Конструкционные стали</span>
+                        <span class="skill-tag">Нержавеющие стали</span>
+                        <span class="skill-tag">Алюминиевые сплавы</span>
+                        <span class="skill-tag">Медные сплавы</span>
+                        <span class="skill-tag">Титановые сплавы</span>
+                        <span class="skill-tag">Пластики</span>
+                        <span class="skill-tag">Оргстекло</span>
+                        <span class="skill-tag">Дерево</span>
+                        <span class="skill-tag">Ткани</span>
+                        <span class="skill-tag">Кожа</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-desktop"></i> Программное обеспечение</h4>
+                    <p>Для работы оператору лазерной резки необходимо освоить:</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">CorelDRAW</span>
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">LaserCut</span>
+                        <span class="skill-tag">RDWorks</span>
+                        <span class="skill-tag">LightBurn</span>
+                        <span class="skill-tag">Trotec JobControl</span>
+                        <span class="skill-tag">ESCAD</span>
+                        <span class="skill-tag">SigmaNEST</span>
+                        <span class="skill-tag">Pronest</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Остальные модальные окна будут иметь аналогичную структуру -->
+    <!-- Для экономии места я покажу только два полных модальных окна -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>УР г.Сарапул ул. Гончарова д.53
+УР г.Сарапул ул. Лермонтова д.1</p>
+                    <p><i class="fas fa-phone"></i> +7 (34147) 4-43-68
++7 (34147) 4-43-69</p>
+                    <p><i class="fas fa-envelope"></i> stmit@podved-mo.udmr.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 11.02.01 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_game_electronic.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">11.02.01</h1>
+                <p class="hero-subtitle">Разработка электронных устройств и систем</p>
+                <p class="hero-description">Стань инженером-электронщиком и создавай современные электронные устройства. Освой проектирование, программирование микроконтроллеров и IoT-технологии.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов по разработке, проектированию и программированию электронных устройств и систем. Студенты изучают схемотехнику, программирование микроконтроллеров, IoT-технологии и проектирование печатных плат.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Техник-электроник" и "Разработчик электронных устройств". Дополнительно доступны сертификации по работе с Arduino, Raspberry Pi и системам автоматизированного проектирования.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать разработчиком электронных устройств, инженером-электронщиком, специалистом по IoT, робототехником, embedded-разработчиком и другими востребованными техническими профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы электротехники</li>
+                        <li><i class="fas fa-check"></i> Электронные компоненты</li>
+                        <li><i class="fas fa-check"></i> Основы программирования</li>
+                        <li><i class="fas fa-check"></i> Черчение и схемотехника</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Микроконтроллеры и процессоры</li>
+                        <li><i class="fas fa-check"></i> Проектирование печатных плат</li>
+                        <li><i class="fas fa-check"></i> Цифровая и аналоговая электроника</li>
+                        <li><i class="fas fa-check"></i> Сигналы и системы</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Интернет вещей (IoT)</li>
+                        <li><i class="fas fa-check"></i> Встраиваемые системы</li>
+                        <li><i class="fas fa-check"></i> Робототехника</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория электроники</h3>
+                        <p>Современное оборудование для изучения электронных компонентов, схемотехники и проектирования электронных устройств.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Осциллографы и генераторы</li>
+                            <li><i class="fas fa-check"></i> Паяльные станции</li>
+                            <li><i class="fas fa-check"></i> Измерительные приборы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория робототехники</h3>
+                        <p>Оборудование для разработки робототехнических систем, изучения микроконтроллеров и интернета вещей.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Платформы Arduino и Raspberry</li>
+                            <li><i class="fas fa-check"></i> 3D-принтеры</li>
+                            <li><i class="fas fa-check"></i> Робототехнические конструкторы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Мини-игра: Электронные вызовы</h2>
+            <div class="game-container">
+                <div class="game-description">
+                    <p>Проверьте свои знания в области электроники и программирования микроконтроллеров! Пройдите три уровня сложности, решая задачи по электронике и программированию.</p>
+                </div>
+                
+                <div class="game-levels">
+                    <div class="level-card" data-level="1">
+                        <div class="level-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Начинающий</h3>
+                        <p>Основы электроники</p>
+                        <span class="level-badge">Легко</span>
+                    </div>
+                    <div class="level-card" data-level="2">
+                        <div class="level-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Продвинутый</h3>
+                        <p>Схемотехника</p>
+                        <span class="level-badge">Средне</span>
+                    </div>
+                    <div class="level-card" data-level="3">
+                        <div class="level-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Эксперт</h3>
+                        <p>Программирование Arduino</p>
+                        <span class="level-badge">Сложно</span>
+                    </div>
+                </div>
+
+                <!-- Уровень 1 -->
+                <div class="game-content level-1" id="level1">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-seedling"></i>
+                            Уровень 1: Основы электроники
+                            <span class="level-indicator">Начинающий</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">3</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">5 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">15</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Вспомните цветовую маркировку резисторов и основные формулы электроники. Обратите внимание на единицы измерения.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Цветовая маркировка резисторов
+                        </div>
+                        <p>Резистор имеет цветовые полосы: Коричневый, Черный, Красный, Золотой. Каково его номинальное сопротивление и допуск?</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectronicOption(this, '1A')">
+                                <input type="radio" name="electronicOption1" id="option1A">
+                                <label for="option1A" class="option-label">A) 100 Ом ±5%</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '1B')">
+                                <input type="radio" name="electronicOption1" id="option1B">
+                                <label for="option1B" class="option-label">B) 1 кОм ±5%</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '1C')">
+                                <input type="radio" name="electronicOption1" id="option1C">
+                                <label for="option1C" class="option-label">C) 10 кОм ±5%</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '1D')">
+                                <input type="radio" name="electronicOption1" id="option1D">
+                                <label for="option1D" class="option-label">D) 100 кОм ±5%</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Расчет тока
+                        </div>
+                        <p>Через резистор 220 Ом протекает ток 10 мА. Какое напряжение приложено к резистору?</p>
+                        
+                        <div class="formula">U = I × R</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectronicOption(this, '2A')">
+                                <input type="radio" name="electronicOption2" id="option2A">
+                                <label for="option2A" class="option-label">A) 2.2 В</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '2B')">
+                                <input type="radio" name="electronicOption2" id="option2B">
+                                <label for="option2B" class="option-label">B) 22 В</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '2C')">
+                                <input type="radio" name="electronicOption2" id="option2C">
+                                <label for="option2C" class="option-label">C) 0.22 В</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '2D')">
+                                <input type="radio" name="electronicOption2" id="option2D">
+                                <label for="option2D" class="option-label">D) 220 В</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 3: Обозначение компонентов
+                        </div>
+                        <p>Какой электронный компонент обозначается следующим символом?</p>
+                        
+                        <div class="component-symbol">−| |−</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectronicOption(this, '3A')">
+                                <input type="radio" name="electronicOption3" id="option3A">
+                                <label for="option3A" class="option-label">A) Конденсатор</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '3B')">
+                                <input type="radio" name="electronicOption3" id="option3B">
+                                <label for="option3B" class="option-label">B) Резистор</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '3C')">
+                                <input type="radio" name="electronicOption3" id="option3C">
+                                <label for="option3C" class="option-label">C) Диод</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '3D')">
+                                <input type="radio" name="electronicOption3" id="option3D">
+                                <label for="option3D" class="option-label">D) Катушка индуктивности</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkElectronicSolution(1)">
+                            <i class="fas fa-check"></i> Проверить ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="showElectronicHint(1)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetElectronicLevel(1)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="electronicGameMessage1" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 2 -->
+                <div class="game-content level-2" id="level2">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-rocket"></i>
+                            Уровень 2: Схемотехника
+                            <span class="level-indicator">Продвинутый</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">2</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">25</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Для делителя напряжения используйте формулу: Uвых = Uвх × (R2 / (R1 + R2)). Для расчета тока в транзисторных схемах учитывайте коэффициент усиления.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Делитель напряжения
+                        </div>
+                        <p>В схеме делителя напряжения R1 = 10 кОм, R2 = 10 кОм, входное напряжение 10 В. Какое напряжение на выходе делителя?</p>
+                        
+                        <div class="formula">Uвых = Uвх × (R2 / (R1 + R2))</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectronicOption(this, '4A')">
+                                <input type="radio" name="electronicOption4" id="option4A">
+                                <label for="option4A" class="option-label">A) 2.5 В</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '4B')">
+                                <input type="radio" name="electronicOption4" id="option4B">
+                                <label for="option4B" class="option-label">B) 5 В</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '4C')">
+                                <input type="radio" name="electronicOption4" id="option4C">
+                                <label for="option4C" class="option-label">C) 7.5 В</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '4D')">
+                                <input type="radio" name="electronicOption4" id="option4D">
+                                <label for="option4D" class="option-label">D) 10 В</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Транзисторный ключ
+                        </div>
+                        <p>В схеме с биполярным транзистором ток базы составляет 1 мА, коэффициент усиления β = 100. Какой ток коллектора протекает через транзистор?</p>
+                        
+                        <div class="formula">Iк = β × Iб</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectronicOption(this, '5A')">
+                                <input type="radio" name="electronicOption5" id="option5A">
+                                <label for="option5A" class="option-label">A) 1 мА</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '5B')">
+                                <input type="radio" name="electronicOption5" id="option5B">
+                                <label for="option5B" class="option-label">B) 10 мА</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '5C')">
+                                <input type="radio" name="electronicOption5" id="option5C">
+                                <label for="option5C" class="option-label">C) 100 мА</label>
+                            </div>
+                            <div class="option" onclick="selectElectronicOption(this, '5D')">
+                                <input type="radio" name="electronicOption5" id="option5D">
+                                <label for="option5D" class="option-label">D) 1 А</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkElectronicSolution(2)">
+                            <i class="fas fa-check"></i> Проверить ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="showElectronicHint(2)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetElectronicLevel(2)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="electronicGameMessage2" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 3 -->
+                <div class="game-content level-3" id="level3">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-crown"></i>
+                            Уровень 3: Программирование Arduino
+                            <span class="level-indicator">Эксперт</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">1</div>
+                            <div>задача</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">10 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">35</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Внимательно проверьте синтаксис: точки с запятой, правильные названия функций, парные скобки. Функция delay() измеряется в миллисекундах.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача: Исправь код Arduino
+                        </div>
+                        <p>В этом коде для управления светодиодом есть 3 ошибки. Найди и исправь их!</p>
+                        
+                        <div class="code-editor">
+                            <div class="code-header">
+                                <span>led_control.ino</span>
+                                <div class="code-actions">
+                                    <button class="code-btn" onclick="checkElectronicCode()">
+                                        <i class="fas fa-play"></i> Проверить код
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="code-content">
+                                <textarea id="electronicCodeInput" class="code-input">// Управление светодиодом
+int ledPin = 13
+
+void setup() {
+    // Ошибка 1: Неправильная функция
+    pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+    // Включить светодиод
+    digitalWrite(ledPin, HIGH);
+    
+    // Ошибка 2: Неправильная задержка
+    dealy(1000);
+    
+    // Выключить светодиод
+    digitalWrite(ledPin, LOW);
+    
+    // Ошибка 3: Отсутствует задержка
+}</textarea>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkElectronicSolution(3)">
+                            <i class="fas fa-check"></i> Проверить ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="showElectronicHint(3)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetElectronicLevel(3)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="electronicGameMessage3" class="output-container"></div>
+                </div>
+
+                <div class="game-complete" id="electronicGameComplete">
+                    <div class="completion-badge">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Поздравляем!</h3>
+                    <p>Вы успешно завершили все уровни электронного вызова!</p>
+                    
+                    <div class="final-stats">
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="electronicFinalScore">0</div>
+                            <div>итоговый счет</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="electronicCompletionTime">0</div>
+                            <div>минут</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value">3/3</div>
+                            <div>уровней пройдено</div>
+                        </div>
+                    </div>
+                    
+                    <div class="level-progress">
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="restartElectronicGame()">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                        <button class="btn btn-secondary" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>УР г.Сарапул ул. Гончарова д.53
+УР г.Сарапул ул. Лермонтова д.1</p>
+                    <p><i class="fas fa-phone"></i> +7 (34147) 4-43-68
++7 (34147) 4-43-69</p>
+                    <p><i class="fas fa-envelope"></i> stmit@podved-mo.udmr.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/games_electronic.js"></script>
+</body>
+</html>

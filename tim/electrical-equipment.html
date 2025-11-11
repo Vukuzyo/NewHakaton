@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 13.02.07 - СТМиИТ 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style_game_electrical.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">13.02.07</h1>
+                <p class="hero-subtitle">Эксплуатация и обслуживание электрического и электромеханического оборудования</p>
+                <p class="hero-description">Стань специалистом по эксплуатации и обслуживанию современного электрооборудования. Освой энергетические системы, автоматизацию и цифровые технологии в энергетике.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Трудоустройство</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Партнеров</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов по эксплуатации, обслуживанию и ремонту электрического и электромеханического оборудования. Студенты изучают энергетические системы, автоматизацию, цифровые технологии и промышленную электронику.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Техник-электрик" и "Специалист по обслуживанию электрооборудования". Дополнительно доступны сертификации по электробезопасности и работе с промышленным оборудованием.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать электромонтажником, наладчиком электрооборудования, специалистом по обслуживанию промышленных систем, энергетиком и другими востребованными техническими профессиями.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Основы электротехники</li>
+                        <li><i class="fas fa-check"></i> Электронные компоненты</li>
+                        <li><i class="fas fa-check"></i> Черчение и схемотехника</li>
+                        <li><i class="fas fa-check"></i> Материаловедение</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Электрические машины</li>
+                        <li><i class="fas fa-check"></i> Электропривод и автоматика</li>
+                        <li><i class="fas fa-check"></i> Релейная защита</li>
+                        <li><i class="fas fa-check"></i> Электробезопасность</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Цифровые технологии в энергетике</li>
+                        <li><i class="fas fa-check"></i> Автоматизированные системы</li>
+                        <li><i class="fas fa-check"></i> Техническое обслуживание</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория электротехники</h3>
+                        <p>Современное оборудование для изучения электротехники, электрических машин и электропривода.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Электрические машины</li>
+                            <li><i class="fas fa-check"></i> Измерительные приборы</li>
+                            <li><i class="fas fa-check"></i> Тренажеры электробезопасности</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Лаборатория автоматики</h3>
+                        <p>Оборудование для изучения автоматизированных систем управления и промышленной автоматизации.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Промышленные контроллеры</li>
+                            <li><i class="fas fa-check"></i> Системы автоматизации</li>
+                            <li><i class="fas fa-check"></i> Датчики и исполнительные механизмы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Мини-игра: Электромонтажные задачи</h2>
+            <div class="game-container">
+                <div class="game-description">
+                    <p>Проверьте свои знания в области электротехники и электромонтажа! Пройдите три уровня сложности, решая реальные задачи по электрике.</p>
+                </div>
+                
+                <div class="game-levels">
+                    <div class="level-card" data-level="1">
+                        <div class="level-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Начинающий</h3>
+                        <p>Основы электротехники</p>
+                        <span class="level-badge">Легко</span>
+                    </div>
+                    <div class="level-card" data-level="2">
+                        <div class="level-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Продвинутый</h3>
+                        <p>Электрические цепи</p>
+                        <span class="level-badge">Средне</span>
+                    </div>
+                    <div class="level-card" data-level="3">
+                        <div class="level-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Эксперт</h3>
+                        <p>Неисправности и ремонт</p>
+                        <span class="level-badge">Сложно</span>
+                    </div>
+                </div>
+
+                <!-- Уровень 1 -->
+                <div class="game-content level-1" id="level1">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-seedling"></i>
+                            Уровень 1: Основы электротехники
+                            <span class="level-indicator">Начинающий</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">3</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">5 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">15</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Вспомните основные законы электротехники: закон Ома, расчет мощности, формулы для последовательного и параллельного соединения резисторов.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Закон Ома
+                        </div>
+                        <p>Рассчитайте силу тока в цепи, если напряжение составляет 220 В, а сопротивление нагрузки равно 44 Ом.</p>
+                        
+                        <div class="formula">I = U / R</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '1A')">
+                                <input type="radio" name="electricalOption1" id="option1A">
+                                <label for="option1A" class="option-label">A) 0.5 А</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '1B')">
+                                <input type="radio" name="electricalOption1" id="option1B">
+                                <label for="option1B" class="option-label">B) 5 А</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '1C')">
+                                <input type="radio" name="electricalOption1" id="option1C">
+                                <label for="option1C" class="option-label">C) 10 А</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '1D')">
+                                <input type="radio" name="electricalOption1" id="option1D">
+                                <label for="option1D" class="option-label">D) 20 А</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Расчет мощности
+                        </div>
+                        <p>Электрический нагреватель потребляет ток 5 А при напряжении 220 В. Какова его мощность?</p>
+                        
+                        <div class="formula">P = U × I</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '2A')">
+                                <input type="radio" name="electricalOption2" id="option2A">
+                                <label for="option2A" class="option-label">A) 110 Вт</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '2B')">
+                                <input type="radio" name="electricalOption2" id="option2B">
+                                <label for="option2B" class="option-label">B) 1100 Вт</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '2C')">
+                                <input type="radio" name="electricalOption2" id="option2C">
+                                <label for="option2C" class="option-label">C) 2200 Вт</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '2D')">
+                                <input type="radio" name="electricalOption2" id="option2D">
+                                <label for="option2D" class="option-label">D) 440 Вт</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 3: Соединение резисторов
+                        </div>
+                        <p>Два резистора сопротивлением 10 Ом и 15 Ом соединены последовательно. Каково общее сопротивление цепи?</p>
+                        
+                        <div class="formula">Rобщ = R1 + R2</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '3A')">
+                                <input type="radio" name="electricalOption3" id="option3A">
+                                <label for="option3A" class="option-label">A) 5 Ом</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '3B')">
+                                <input type="radio" name="electricalOption3" id="option3B">
+                                <label for="option3B" class="option-label">B) 15 Ом</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '3C')">
+                                <input type="radio" name="electricalOption3" id="option3C">
+                                <label for="option3C" class="option-label">C) 25 Ом</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '3D')">
+                                <input type="radio" name="electricalOption3" id="option3D">
+                                <label for="option3D" class="option-label">D) 150 Ом</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkElectricalSolution(1)">
+                            <i class="fas fa-check"></i> Проверить ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="showElectricalHint(1)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetElectricalLevel(1)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="electricalGameMessage1" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 2 -->
+                <div class="game-content level-2" id="level2">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-rocket"></i>
+                            Уровень 2: Электрические цепи
+                            <span class="level-indicator">Продвинутый</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">2</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">25</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>Для параллельного соединения резисторов используется формула: 1/Rобщ = 1/R1 + 1/R2. Для расчета тока в разветвленных цепях применяйте закон Кирхгофа.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Параллельное соединение
+                        </div>
+                        <p>Два резистора сопротивлением 20 Ом и 30 Ом соединены параллельно. Каково общее сопротивление цепи?</p>
+                        
+                        <div class="formula">1/Rобщ = 1/R1 + 1/R2</div>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '4A')">
+                                <input type="radio" name="electricalOption4" id="option4A">
+                                <label for="option4A" class="option-label">A) 10 Ом</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '4B')">
+                                <input type="radio" name="electricalOption4" id="option4B">
+                                <label for="option4B" class="option-label">B) 12 Ом</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '4C')">
+                                <input type="radio" name="electricalOption4" id="option4C">
+                                <label for="option4C" class="option-label">C) 15 Ом</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '4D')">
+                                <input type="radio" name="electricalOption4" id="option4D">
+                                <label for="option4D" class="option-label">D) 50 Ом</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Расчет тока в цепи
+                        </div>
+                        <p>В цепи с напряжением 24 В последовательно соединены резисторы 6 Ом и 10 Ом. Какой ток протекает через резистор 6 Ом?</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '5A')">
+                                <input type="radio" name="electricalOption5" id="option5A">
+                                <label for="option5A" class="option-label">A) 1 А</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '5B')">
+                                <input type="radio" name="electricalOption5" id="option5B">
+                                <label for="option5B" class="option-label">B) 1.5 А</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '5C')">
+                                <input type="radio" name="electricalOption5" id="option5C">
+                                <label for="option5C" class="option-label">C) 2 А</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '5D')">
+                                <input type="radio" name="electricalOption5" id="option5D">
+                                <label for="option5D" class="option-label">D) 4 А</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkElectricalSolution(2)">
+                            <i class="fas fa-check"></i> Проверить ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="showElectricalHint(2)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetElectricalLevel(2)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="electricalGameMessage2" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 3 -->
+                <div class="game-content level-3" id="level3">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-crown"></i>
+                            Уровень 3: Неисправности и ремонт
+                            <span class="level-indicator">Эксперт</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">2</div>
+                            <div>задачи</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">10 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">35</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Ответ</span>
+                        </div>
+                        <p>При поиске неисправностей всегда соблюдайте правила электробезопасности. Используйте системный подход: от общего к частному.</p>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 1: Поиск неисправности
+                        </div>
+                        <p>В производственном цеху внезапно погас свет. Автоматический выключатель в щитке не сработал. Каков правильный порядок действий?</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '6A')">
+                                <input type="radio" name="electricalOption6" id="option6A">
+                                <label for="option6A" class="option-label">A) Немедленно начать ремонт, не отключая напряжение</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '6B')">
+                                <input type="radio" name="electricalOption6" id="option6B">
+                                <label for="option6B" class="option-label">B) Отключить питание → Проверить наличие напряжения → Осмотреть светильники → Проверить целостность кабеля</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '6C')">
+                                <input type="radio" name="electricalOption6" id="option6C">
+                                <label for="option6C" class="option-label">C) Вызвать электрика и продолжить работу при аварийном освещении</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '6D')">
+                                <input type="radio" name="electricalOption6" id="option6D">
+                                <label for="option6D" class="option-label">D) Переключиться на резервную линию и забыть о проблеме</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="scenario">
+                        <div class="scenario-title">
+                            <i class="fas fa-question-circle"></i>
+                            Задача 2: Электробезопасность
+                        </div>
+                        <p>При работе с электроустановками до 1000 В какое минимальное расстояние должно соблюдаться от токоведущих частей без применения средств защиты?</p>
+                        
+                        <div class="options">
+                            <div class="option" onclick="selectElectricalOption(this, '7A')">
+                                <input type="radio" name="electricalOption7" id="option7A">
+                                <label for="option7A" class="option-label">A) 0.3 метра</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '7B')">
+                                <input type="radio" name="electricalOption7" id="option7B">
+                                <label for="option7B" class="option-label">B) 0.6 метра</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '7C')">
+                                <input type="radio" name="electricalOption7" id="option7C">
+                                <label for="option7C" class="option-label">C) 1.0 метра</label>
+                            </div>
+                            <div class="option" onclick="selectElectricalOption(this, '7D')">
+                                <input type="radio" name="electricalOption7" id="option7D">
+                                <label for="option7D" class="option-label">D) 1.5 метра</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkElectricalSolution(3)">
+                            <i class="fas fa-check"></i> Проверить ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="showElectricalHint(3)">
+                            <i class="fas fa-lightbulb"></i> Ответ
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetElectricalLevel(3)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="electricalGameMessage3" class="output-container"></div>
+                </div>
+
+                <div class="game-complete" id="electricalGameComplete">
+                    <div class="completion-badge">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Поздравляем!</h3>
+                    <p>Вы успешно завершили все уровни электромонтажного вызова!</p>
+                    
+                    <div class="final-stats">
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="electricalFinalScore">0</div>
+                            <div>итоговый счет</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="electricalCompletionTime">0</div>
+                            <div>минут</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value">3/3</div>
+                            <div>уровней пройдено</div>
+                        </div>
+                    </div>
+                    
+                    <div class="level-progress">
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="restartElectricalGame()">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                        <button class="btn btn-secondary" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>УР г.Сарапул ул. Гончарова д.53
+УР г.Сарапул ул. Лермонтова д.1</p>
+                    <p><i class="fas fa-phone"></i> +7 (34147) 4-43-68
++7 (34147) 4-43-69</p>
+                    <p><i class="fas fa-envelope"></i> stmit@podved-mo.udmr.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/games_electrical.js"></script>
+</body>
+</html>

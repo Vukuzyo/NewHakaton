@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальность 38.02.04 - Торговое дело 2025</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_game_trade.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-cash-register"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">СТМиИТ</span>
+                        <span class="logo-sub">Техникум 2025</span>
+                    </div>
+                </a>
+                <div class="header-controls">
+                    <button class="back-btn" onclick="window.location.href='index.html'">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>На главную</span>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                        <span>Тёмная</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">38.02.04</h1>
+                <p class="hero-subtitle">Торговое дело</p>
+                <p class="hero-description">Стань специалистом в области коммерции, маркетинга и управления продажами. Освой современные инструменты торгового бизнеса и мерчандайзинга.</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">2.5</span>
+                        <span class="stat-label">Года обучения</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('specialty')">
+                    <span>Узнать больше</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="section" id="specialty">
+            <h2 class="section-title">О специальности</h2>
+            <div class="specialty-info">
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Описание</h3>
+                    <p>Специальность готовит специалистов в области коммерческой деятельности, способных организовывать и управлять торговыми процессами, проводить маркетинговые исследования и анализировать рынок.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Квалификация</h3>
+                    <p>Выпускники получают квалификацию "Менеджер по продажам" и "Специалист по маркетингу". Дополнительно доступны сертификации по мерчандайзингу и управлению ассортиментом.</p>
+                </div>
+                <div class="info-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Перспективы 2025</h3>
+                    <p>Вы сможете работать менеджером по продажам, мерчандайзером, специалистом по закупкам, товароведом, администратором торгового зала и другими востребованными профессиями в сфере торговли.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Учебный план 2025</h2>
+            <div class="curriculum">
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>1-2 семестр</h3>
+                        <span class="semester-badge">Базовый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Экономика организации</li>
+                        <li><i class="fas fa-check"></i> Основы маркетинга</li>
+                        <li><i class="fas fa-check"></i> Товароведение</li>
+                        <li><i class="fas fa-check"></i> Документационное обеспечение</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>3-4 семестр</h3>
+                        <span class="semester-badge">Продвинутый уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Организация коммерческой деятельности</li>
+                        <li><i class="fas fa-check"></i> Управление ассортиментом</li>
+                        <li><i class="fas fa-check"></i> Ценообразование</li>
+                        <li><i class="fas fa-check"></i> Логистика в торговле</li>
+                    </ul>
+                </div>
+                <div class="semester">
+                    <div class="semester-header">
+                        <h3>5-6 семестр</h3>
+                        <span class="semester-badge">Экспертный уровень</span>
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Управление продажами</li>
+                        <li><i class="fas fa-check"></i> Электронная коммерция</li>
+                        <li><i class="fas fa-check"></i> Мерчандайзинг</li>
+                        <li><i class="fas fa-check"></i> Проектная работа</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Лаборатории и оборудование</h2>
+            <div class="labs-grid">
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Тренажерный торговый зал</h3>
+                        <p>Современное оборудование для отработки практических навыков работы в торговле, включая кассовые аппараты, терминалы и системы учета.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Торговые весы и сканеры</li>
+                            <li><i class="fas fa-check"></i> POS-системы и кассовые аппараты</li>
+                            <li><i class="fas fa-check"></i> Оборудование для мерчандайзинга</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lab-card">
+                    <div class="lab-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="lab-info">
+                        <h3>Компьютерный класс коммерции</h3>
+                        <p>Специализированное программное обеспечение для управления торговыми процессами, анализа рынка и ведения электронной коммерции.</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Программы для управления ассортиментом</li>
+                            <li><i class="fas fa-check"></i> Системы анализа продаж</li>
+                            <li><i class="fas fa-check"></i> Платформы для электронной торговли</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Мини-игра: Торговый симулятор</h2>
+            <div class="game-container">
+                <div class="game-description">
+                    <p>Проверьте свои знания в области торгового дела! Расставьте товары по правилам мерчандайзинга, рассчитайте скидки и организуйте эффективную выкладку. Пройдите три уровня сложности.</p>
+                </div>
+                
+                <div class="game-levels">
+                    <div class="level-card" data-level="1">
+                        <div class="level-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Начинающий</h3>
+                        <p>Расстановка товаров</p>
+                        <span class="level-badge">Легко</span>
+                    </div>
+                    <div class="level-card" data-level="2">
+                        <div class="level-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Продвинутый</h3>
+                        <p>Расчет цен и скидок</p>
+                        <span class="level-badge">Средне</span>
+                    </div>
+                    <div class="level-card" data-level="3">
+                        <div class="level-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Эксперт</h3>
+                        <p>Планировка торгового зала</p>
+                        <span class="level-badge">Сложно</span>
+                    </div>
+                </div>
+
+                <!-- Уровень 1 -->
+                <div class="game-content level-1" id="level1">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-seedling"></i>
+                            Уровень 1: Расстановка товаров
+                            <span class="level-indicator">Начинающий</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">4</div>
+                            <div>товара</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">5 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">15</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Подсказка</span>
+                        </div>
+                        <p>Перетащите товары из левой области в соответствующие отделы на полках справа. Учитывайте категории товаров и правила товарного соседства.</p>
+                    </div>
+
+                    <div class="game-area">
+                        <div class="products-container" id="productsContainer1">
+                            <!-- Товары будут добавлены через JavaScript -->
+                        </div>
+                        
+                        <div class="shelves-area" id="shelvesArea1">
+                            <h3>Торговые полки:</h3>
+                            <div class="shelves-slots">
+                                <!-- Слоты для товаров будут добавлены через JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkAssembly(1)">
+                            <i class="fas fa-check"></i> Проверить расстановку
+                        </button>
+                        <button class="btn btn-secondary" onclick="showHint(1)">
+                            <i class="fas fa-lightbulb"></i> Подсказка
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetLevel(1)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="gameMessage1" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 2 -->
+                <div class="game-content level-2" id="level2">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-rocket"></i>
+                            Уровень 2: Расчет цен и скидок
+                            <span class="level-indicator">Продвинутый</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">5</div>
+                            <div>товаров</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">25</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Подсказка</span>
+                        </div>
+                        <p>Рассчитайте правильную цену товара с учетом скидки и разместите товары в соответствующие ценовые категории на полках.</p>
+                    </div>
+
+                    <div class="game-area">
+                        <div class="products-container" id="productsContainer2">
+                            <!-- Товары будут добавлены через JavaScript -->
+                        </div>
+                        
+                        <div class="shelves-area" id="shelvesArea2">
+                            <h3>Ценовые категории:</h3>
+                            <div class="shelves-slots">
+                                <!-- Слоты для товаров будут добавлены через JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkAssembly(2)">
+                            <i class="fas fa-check"></i> Проверить расчеты
+                        </button>
+                        <button class="btn btn-secondary" onclick="showHint(2)">
+                            <i class="fas fa-lightbulb"></i> Подсказка
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetLevel(2)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="gameMessage2" class="output-container"></div>
+                </div>
+
+                <!-- Уровень 3 -->
+                <div class="game-content level-3" id="level3">
+                    <div class="game-header">
+                        <div class="game-title">
+                            <i class="fas fa-crown"></i>
+                            Уровень 3: Планировка торгового зала
+                            <span class="level-indicator">Эксперт</span>
+                        </div>
+                        <button class="btn btn-back" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+
+                    <div class="game-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">6</div>
+                            <div>отделов</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">10 мин</div>
+                            <div>время</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">35</div>
+                            <div>баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="hint-container">
+                        <div class="hint-title">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Подсказка</span>
+                        </div>
+                        <p>Разместите отделы в торговом зале согласно правилам мерчандайзинга: учитывайте потоки покупателей, товарное соседство и расположение касс.</p>
+                    </div>
+
+                    <div class="game-area">
+                        <div class="products-container" id="productsContainer3">
+                            <!-- Отделы будут добавлены через JavaScript -->
+                        </div>
+                        
+                        <div class="shelves-area" id="shelvesArea3">
+                            <h3>Планировка зала:</h3>
+                            <div class="shelves-slots">
+                                <!-- Слоты для отделов будут добавлены через JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="checkAssembly(3)">
+                            <i class="fas fa-check"></i> Проверить планировку
+                        </button>
+                        <button class="btn btn-secondary" onclick="showHint(3)">
+                            <i class="fas fa-lightbulb"></i> Подсказка
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetLevel(3)">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                    </div>
+                    
+                    <div id="gameMessage3" class="output-container"></div>
+                </div>
+
+                <div class="game-complete" id="gameComplete">
+                    <div class="completion-badge">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Поздравляем!</h3>
+                    <p>Вы успешно завершили все уровни торгового симулятора!</p>
+                    
+                    <div class="final-stats">
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="finalScore">0</div>
+                            <div>итоговый счет</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value" id="completionTime">0</div>
+                            <div>минут</div>
+                        </div>
+                        <div class="final-stat">
+                            <div class="final-stat-value">3/3</div>
+                            <div>уровней пройдено</div>
+                        </div>
+                    </div>
+                    
+                    <div class="level-progress">
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                        <div class="level-dot completed"></div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn-primary" onclick="restartGame()">
+                            <i class="fas fa-redo"></i> Начать заново
+                        </button>
+                        <button class="btn btn-secondary" onclick="backToLevelSelection()">
+                            <i class="fas fa-arrow-left"></i> Закрыть
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-cash-register"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">СТМиИТ</span>
+                            <span class="logo-sub">Техникум 2025</span>
+                        </div>
+                    </div>
+                    <p>Техникум современных технологий и инновационных решений</p>
+                    <p>© 2025 Все права защищены</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>УР г.Сарапул ул. Гончарова д.53
+УР г.Сарапул ул. Лермонтова д.1</p>
+                    <p><i class="fas fa-phone"></i> +7 (34147) 4-43-68
++7 (34147) 4-43-69</p>
+                    <p><i class="fas fa-envelope"></i> stmit@podved-mo.udmr.ru</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                    <a href="index.html#specialties"><i class="fas fa-book"></i> Специальности</a>
+                    <a href="#"><i class="fas fa-user-graduate"></i> Поступление</a>
+                    <a href="#"><i class="fas fa-newspaper"></i> Новости</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/games_trade.js"></script>
+</body>
+</html>
